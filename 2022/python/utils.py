@@ -3,6 +3,10 @@ import os
 import re
 
 
+def get_lines(year, day):
+    return [i.strip('\n') for i in fileinput.input('/'.join(os.getcwd().split('/')[:-2]) + f'/{year}/inputs/{day}.txt')]
+
+
 def get_two_parts(year, day):
     file_input = ''.join(
         fileinput.input(
