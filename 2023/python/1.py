@@ -45,7 +45,7 @@ def part2(lines):
 
 
 if __name__=='__main__':
-    print(sys.argv)
+    
     TEST = False if len(sys.argv) <2 else True
     
     if not TEST:
