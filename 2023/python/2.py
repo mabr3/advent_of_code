@@ -20,7 +20,7 @@ def part2(lines):
     p_c = re.compile(pattern=pattern)   
     l_t = [list(zip(*p_c.findall(l))) for l in lines]
     sums =[[max(map(lambda x: int(x) if x.isdigit() else 0, ttt)) for ttt in tt] for tt in l_t] 
-    res = sum(list(map(lambda x: x[1]*x[2]*x[3], sums)))
+    res = sum(list(map(lambda x: x[1]*x[2]*x[3], sums))) 
     return res
 
 
