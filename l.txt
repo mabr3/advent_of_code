@@ -1,0 +1,2298 @@
+Number is: 224
+Adding 224 - Res so far: 224
+Number is: 487
+Number is: 718
+Adding 718 - Res so far: 942
+Number is: 378
+Adding 378 - Res so far: 1320
+Number is: 284
+Adding 284 - Res so far: 1604
+Number is: 310
+Adding 310 - Res so far: 1914
+Number is: 313
+Adding 313 - Res so far: 2227
+Number is: 311
+Number is: 744
+Adding 744 - Res so far: 2971
+Number is: 486
+Adding 486 - Res so far: 3457
+Number is: 485
+Adding 485 - Res so far: 3942
+Number is: 741
+Adding 741 - Res so far: 4683
+Number is: 359
+Adding 359 - Res so far: 5042
+Number is: 666
+Adding 666 - Res so far: 5708
+Number is: 439
+Adding 439 - Res so far: 6147
+Number is: 925
+Adding 925 - Res so far: 7072
+Number is: 235
+Adding 235 - Res so far: 7307
+Number is: 758
+Number is: 440
+Adding 440 - Res so far: 7747
+Number is: 251
+Adding 251 - Res so far: 7998
+Number is: 262
+Adding 262 - Res so far: 8260
+Number is: 752
+Adding 752 - Res so far: 9012
+Number is: 774
+Adding 774 - Res so far: 9786
+Number is: 515
+Adding 515 - Res so far: 10301
+Number is: 705
+Adding 705 - Res so far: 11006
+Number is: 746
+Adding 746 - Res so far: 11752
+Number is: 942
+Adding 942 - Res so far: 12694
+Number is: 591
+Adding 591 - Res so far: 13285
+Number is: 347
+Adding 347 - Res so far: 13632
+Number is: 470
+Adding 470 - Res so far: 14102
+Number is: 257
+Adding 257 - Res so far: 14359
+Number is: 637
+Adding 637 - Res so far: 14996
+Number is: 793
+Adding 793 - Res so far: 15789
+Number is: 299
+Adding 299 - Res so far: 16088
+Number is: 813
+Adding 813 - Res so far: 16901
+Number is: 509
+Adding 509 - Res so far: 17410
+Number is: 464
+Number is: 688
+Adding 688 - Res so far: 18098
+Number is: 82
+Adding 82 - Res so far: 18180
+Number is: 901
+Adding 901 - Res so far: 19081
+Number is: 836
+Number is: 814
+Adding 814 - Res so far: 19895
+Number is: 80
+Adding 80 - Res so far: 19975
+Number is: 17
+Adding 17 - Res so far: 19992
+Number is: 679
+Adding 679 - Res so far: 20671
+Number is: 661
+Adding 661 - Res so far: 21332
+Number is: 299
+Number is: 222
+Adding 222 - Res so far: 21554
+Number is: 875
+Adding 875 - Res so far: 22429
+Number is: 213
+Adding 213 - Res so far: 22642
+Number is: 161
+Adding 161 - Res so far: 22803
+Number is: 964
+Adding 964 - Res so far: 23767
+Number is: 894
+Number is: 998
+Adding 998 - Res so far: 24765
+Number is: 310
+Adding 310 - Res so far: 25075
+Number is: 258
+Adding 258 - Res so far: 25333
+Number is: 85
+Adding 85 - Res so far: 25418
+Number is: 735
+Adding 735 - Res so far: 26153
+Number is: 586
+Adding 586 - Res so far: 26739
+Number is: 650
+Adding 650 - Res so far: 27389
+Number is: 23
+Adding 23 - Res so far: 27412
+Number is: 760
+Adding 760 - Res so far: 28172
+Number is: 202
+Adding 202 - Res so far: 28374
+Number is: 339
+Number is: 598
+Adding 598 - Res so far: 28972
+Number is: 536
+Adding 536 - Res so far: 29508
+Number is: 702
+Adding 702 - Res so far: 30210
+Number is: 705
+Adding 705 - Res so far: 30915
+Number is: 793
+Adding 793 - Res so far: 31708
+Number is: 957
+Adding 957 - Res so far: 32665
+Number is: 935
+Adding 935 - Res so far: 33600
+Number is: 965
+Adding 965 - Res so far: 34565
+Number is: 357
+Adding 357 - Res so far: 34922
+Number is: 242
+Adding 242 - Res so far: 35164
+Number is: 283
+Number is: 956
+Adding 956 - Res so far: 36120
+Number is: 118
+Adding 118 - Res so far: 36238
+Number is: 959
+Adding 959 - Res so far: 37197
+Number is: 184
+Adding 184 - Res so far: 37381
+Number is: 401
+Adding 401 - Res so far: 37782
+Number is: 527
+Adding 527 - Res so far: 38309
+Number is: 348
+Number is: 63
+Adding 63 - Res so far: 38372
+Number is: 955
+Adding 955 - Res so far: 39327
+Number is: 523
+Number is: 77
+Adding 77 - Res so far: 39404
+Number is: 978
+Adding 978 - Res so far: 40382
+Number is: 846
+Adding 846 - Res so far: 41228
+Number is: 849
+Adding 849 - Res so far: 42077
+Number is: 699
+Adding 699 - Res so far: 42776
+Number is: 790
+Adding 790 - Res so far: 43566
+Number is: 911
+Adding 911 - Res so far: 44477
+Number is: 87
+Adding 87 - Res so far: 44564
+Number is: 486
+Adding 486 - Res so far: 45050
+Number is: 914
+Adding 914 - Res so far: 45964
+Number is: 842
+Adding 842 - Res so far: 46806
+Number is: 127
+Adding 127 - Res so far: 46933
+Number is: 844
+Adding 844 - Res so far: 47777
+Number is: 946
+Number is: 235
+Adding 235 - Res so far: 48012
+Number is: 209
+Adding 209 - Res so far: 48221
+Number is: 710
+Adding 710 - Res so far: 48931
+Number is: 735
+Adding 735 - Res so far: 49666
+Number is: 144
+Adding 144 - Res so far: 49810
+Number is: 226
+Adding 226 - Res so far: 50036
+Number is: 298
+Adding 298 - Res so far: 50334
+Number is: 560
+Adding 560 - Res so far: 50894
+Number is: 253
+Number is: 431
+Adding 431 - Res so far: 51325
+Number is: 586
+Adding 586 - Res so far: 51911
+Number is: 723
+Adding 723 - Res so far: 52634
+Number is: 482
+Adding 482 - Res so far: 53116
+Number is: 871
+Adding 871 - Res so far: 53987
+Number is: 918
+Adding 918 - Res so far: 54905
+Number is: 329
+Adding 329 - Res so far: 55234
+Number is: 906
+Adding 906 - Res so far: 56140
+Number is: 350
+Adding 350 - Res so far: 56490
+Number is: 365
+Adding 365 - Res so far: 56855
+Number is: 361
+Adding 361 - Res so far: 57216
+Number is: 536
+Adding 536 - Res so far: 57752
+Number is: 793
+Adding 793 - Res so far: 58545
+Number is: 664
+Adding 664 - Res so far: 59209
+Number is: 739
+Adding 739 - Res so far: 59948
+Number is: 507
+Adding 507 - Res so far: 60455
+Number is: 289
+Adding 289 - Res so far: 60744
+Number is: 256
+Adding 256 - Res so far: 61000
+Number is: 73
+Adding 73 - Res so far: 61073
+Number is: 356
+Adding 356 - Res so far: 61429
+Number is: 834
+Adding 834 - Res so far: 62263
+Number is: 96
+Adding 96 - Res so far: 62359
+Number is: 939
+Adding 939 - Res so far: 63298
+Number is: 28
+Adding 28 - Res so far: 63326
+Number is: 553
+Adding 553 - Res so far: 63879
+Number is: 526
+Adding 526 - Res so far: 64405
+Number is: 501
+Adding 501 - Res so far: 64906
+Number is: 746
+Adding 746 - Res so far: 65652
+Number is: 890
+Adding 890 - Res so far: 66542
+Number is: 701
+Adding 701 - Res so far: 67243
+Number is: 807
+Adding 807 - Res so far: 68050
+Number is: 447
+Adding 447 - Res so far: 68497
+Number is: 97
+Adding 97 - Res so far: 68594
+Number is: 58
+Adding 58 - Res so far: 68652
+Number is: 891
+Adding 891 - Res so far: 69543
+Number is: 346
+Adding 346 - Res so far: 69889
+Number is: 699
+Adding 699 - Res so far: 70588
+Number is: 421
+Adding 421 - Res so far: 71009
+Number is: 666
+Adding 666 - Res so far: 71675
+Number is: 198
+Adding 198 - Res so far: 71873
+Number is: 791
+Adding 791 - Res so far: 72664
+Number is: 340
+Adding 340 - Res so far: 73004
+Number is: 433
+Adding 433 - Res so far: 73437
+Number is: 316
+Adding 316 - Res so far: 73753
+Number is: 81
+Adding 81 - Res so far: 73834
+Number is: 984
+Adding 984 - Res so far: 74818
+Number is: 462
+Adding 462 - Res so far: 75280
+Number is: 116
+Adding 116 - Res so far: 75396
+Number is: 711
+Adding 711 - Res so far: 76107
+Number is: 963
+Adding 963 - Res so far: 77070
+Number is: 380
+Adding 380 - Res so far: 77450
+Number is: 745
+Number is: 85
+Adding 85 - Res so far: 77535
+Number is: 224
+Adding 224 - Res so far: 77759
+Number is: 370
+Adding 370 - Res so far: 78129
+Number is: 923
+Adding 923 - Res so far: 79052
+Number is: 563
+Number is: 188
+Adding 188 - Res so far: 79240
+Number is: 326
+Adding 326 - Res so far: 79566
+Number is: 67
+Adding 67 - Res so far: 79633
+Number is: 815
+Number is: 582
+Adding 582 - Res so far: 80215
+Number is: 530
+Adding 530 - Res so far: 80745
+Number is: 489
+Adding 489 - Res so far: 81234
+Number is: 59
+Adding 59 - Res so far: 81293
+Number is: 57
+Number is: 100
+Adding 100 - Res so far: 81393
+Number is: 441
+Adding 441 - Res so far: 81834
+Number is: 637
+Adding 637 - Res so far: 82471
+Number is: 961
+Adding 961 - Res so far: 83432
+Number is: 118
+Adding 118 - Res so far: 83550
+Number is: 21
+Adding 21 - Res so far: 83571
+Number is: 216
+Adding 216 - Res so far: 83787
+Number is: 432
+Adding 432 - Res so far: 84219
+Number is: 309
+Adding 309 - Res so far: 84528
+Number is: 64
+Adding 64 - Res so far: 84592
+Number is: 992
+Adding 992 - Res so far: 85584
+Number is: 81
+Adding 81 - Res so far: 85665
+Number is: 781
+Adding 781 - Res so far: 86446
+Number is: 644
+Adding 644 - Res so far: 87090
+Number is: 324
+Adding 324 - Res so far: 87414
+Number is: 126
+Adding 126 - Res so far: 87540
+Number is: 166
+Adding 166 - Res so far: 87706
+Number is: 385
+Adding 385 - Res so far: 88091
+Number is: 233
+Adding 233 - Res so far: 88324
+Number is: 436
+Adding 436 - Res so far: 88760
+Number is: 517
+Adding 517 - Res so far: 89277
+Number is: 88
+Adding 88 - Res so far: 89365
+Number is: 390
+Adding 390 - Res so far: 89755
+Number is: 355
+Adding 355 - Res so far: 90110
+Number is: 335
+Adding 335 - Res so far: 90445
+Number is: 372
+Adding 372 - Res so far: 90817
+Number is: 254
+Adding 254 - Res so far: 91071
+Number is: 294
+Adding 294 - Res so far: 91365
+Number is: 589
+Adding 589 - Res so far: 91954
+Number is: 803
+Adding 803 - Res so far: 92757
+Number is: 38
+Adding 38 - Res so far: 92795
+Number is: 56
+Adding 56 - Res so far: 92851
+Number is: 235
+Adding 235 - Res so far: 93086
+Number is: 196
+Adding 196 - Res so far: 93282
+Number is: 948
+Adding 948 - Res so far: 94230
+Number is: 359
+Adding 359 - Res so far: 94589
+Number is: 398
+Adding 398 - Res so far: 94987
+Number is: 608
+Adding 608 - Res so far: 95595
+Number is: 145
+Adding 145 - Res so far: 95740
+Number is: 346
+Adding 346 - Res so far: 96086
+Number is: 915
+Adding 915 - Res so far: 97001
+Number is: 485
+Adding 485 - Res so far: 97486
+Number is: 945
+Adding 945 - Res so far: 98431
+Number is: 936
+Adding 936 - Res so far: 99367
+Number is: 114
+Adding 114 - Res so far: 99481
+Number is: 118
+Number is: 490
+Adding 490 - Res so far: 99971
+Number is: 536
+Number is: 663
+Number is: 61
+Adding 61 - Res so far: 100032
+Number is: 856
+Number is: 343
+Adding 343 - Res so far: 100375
+Number is: 859
+Number is: 345
+Adding 345 - Res so far: 100720
+Number is: 862
+Adding 862 - Res so far: 101582
+Number is: 711
+Number is: 313
+Adding 313 - Res so far: 101895
+Number is: 606
+Number is: 23
+Number is: 316
+Adding 316 - Res so far: 102211
+Number is: 529
+Adding 529 - Res so far: 102740
+Number is: 362
+Adding 362 - Res so far: 103102
+Number is: 49
+Adding 49 - Res so far: 103151
+Number is: 307
+Adding 307 - Res so far: 103458
+Number is: 791
+Adding 791 - Res so far: 104249
+Number is: 225
+Number is: 281
+Adding 281 - Res so far: 104530
+Number is: 222
+Adding 222 - Res so far: 104752
+Number is: 283
+Adding 283 - Res so far: 105035
+Number is: 675
+Number is: 911
+Adding 911 - Res so far: 105946
+Number is: 90
+Adding 90 - Res so far: 106036
+Number is: 914
+Adding 914 - Res so far: 106950
+Number is: 39
+Adding 39 - Res so far: 106989
+Number is: 509
+Adding 509 - Res so far: 107498
+Number is: 797
+Adding 797 - Res so far: 108295
+Number is: 23
+Adding 23 - Res so far: 108318
+Number is: 895
+Adding 895 - Res so far: 109213
+Number is: 67
+Adding 67 - Res so far: 109280
+Number is: 164
+Adding 164 - Res so far: 109444
+Number is: 896
+Adding 896 - Res so far: 110340
+Number is: 554
+Adding 554 - Res so far: 110894
+Number is: 460
+Adding 460 - Res so far: 111354
+Number is: 181
+Adding 181 - Res so far: 111535
+Number is: 211
+Adding 211 - Res so far: 111746
+Number is: 474
+Adding 474 - Res so far: 112220
+Number is: 201
+Adding 201 - Res so far: 112421
+Number is: 911
+Adding 911 - Res so far: 113332
+Number is: 717
+Adding 717 - Res so far: 114049
+Number is: 192
+Adding 192 - Res so far: 114241
+Number is: 75
+Adding 75 - Res so far: 114316
+Number is: 679
+Adding 679 - Res so far: 114995
+Number is: 355
+Adding 355 - Res so far: 115350
+Number is: 678
+Adding 678 - Res so far: 116028
+Number is: 650
+Adding 650 - Res so far: 116678
+Number is: 128
+Adding 128 - Res so far: 116806
+Number is: 925
+Adding 925 - Res so far: 117731
+Number is: 230
+Adding 230 - Res so far: 117961
+Number is: 105
+Adding 105 - Res so far: 118066
+Number is: 409
+Adding 409 - Res so far: 118475
+Number is: 897
+Adding 897 - Res so far: 119372
+Number is: 698
+Adding 698 - Res so far: 120070
+Number is: 427
+Adding 427 - Res so far: 120497
+Number is: 313
+Adding 313 - Res so far: 120810
+Number is: 670
+Adding 670 - Res so far: 121480
+Number is: 521
+Number is: 838
+Adding 838 - Res so far: 122318
+Number is: 335
+Adding 335 - Res so far: 122653
+Number is: 367
+Adding 367 - Res so far: 123020
+Number is: 325
+Adding 325 - Res so far: 123345
+Number is: 233
+Adding 233 - Res so far: 123578
+Number is: 224
+Adding 224 - Res so far: 123802
+Number is: 950
+Adding 950 - Res so far: 124752
+Number is: 688
+Number is: 199
+Adding 199 - Res so far: 124951
+Number is: 774
+Number is: 793
+Adding 793 - Res so far: 125744
+Number is: 108
+Adding 108 - Res so far: 125852
+Number is: 501
+Adding 501 - Res so far: 126353
+Number is: 102
+Adding 102 - Res so far: 126455
+Number is: 924
+Adding 924 - Res so far: 127379
+Number is: 349
+Adding 349 - Res so far: 127728
+Number is: 595
+Adding 595 - Res so far: 128323
+Number is: 395
+Adding 395 - Res so far: 128718
+Number is: 753
+Adding 753 - Res so far: 129471
+Number is: 318
+Adding 318 - Res so far: 129789
+Number is: 676
+Adding 676 - Res so far: 130465
+Number is: 759
+Number is: 154
+Adding 154 - Res so far: 130619
+Number is: 524
+Adding 524 - Res so far: 131143
+Number is: 908
+Adding 908 - Res so far: 132051
+Number is: 694
+Adding 694 - Res so far: 132745
+Number is: 211
+Adding 211 - Res so far: 132956
+Number is: 173
+Number is: 214
+Adding 214 - Res so far: 133170
+Number is: 458
+Adding 458 - Res so far: 133628
+Number is: 403
+Adding 403 - Res so far: 134031
+Number is: 958
+Adding 958 - Res so far: 134989
+Number is: 98
+Number is: 688
+Adding 688 - Res so far: 135677
+Number is: 957
+Adding 957 - Res so far: 136634
+Number is: 488
+Adding 488 - Res so far: 137122
+Number is: 591
+Adding 591 - Res so far: 137713
+Number is: 218
+Adding 218 - Res so far: 137931
+Number is: 203
+Adding 203 - Res so far: 138134
+Number is: 196
+Adding 196 - Res so far: 138330
+Number is: 765
+Adding 765 - Res so far: 139095
+Number is: 971
+Adding 971 - Res so far: 140066
+Number is: 927
+Adding 927 - Res so far: 140993
+Number is: 741
+Adding 741 - Res so far: 141734
+Number is: 227
+Adding 227 - Res so far: 141961
+Number is: 592
+Adding 592 - Res so far: 142553
+Number is: 60
+Adding 60 - Res so far: 142613
+Number is: 885
+Adding 885 - Res so far: 143498
+Number is: 287
+Number is: 474
+Adding 474 - Res so far: 143972
+Number is: 409
+Adding 409 - Res so far: 144381
+Number is: 226
+Adding 226 - Res so far: 144607
+Number is: 174
+Adding 174 - Res so far: 144781
+Number is: 230
+Adding 230 - Res so far: 145011
+Number is: 162
+Adding 162 - Res so far: 145173
+Number is: 169
+Adding 169 - Res so far: 145342
+Number is: 510
+Adding 510 - Res so far: 145852
+Number is: 962
+Adding 962 - Res so far: 146814
+Number is: 17
+Number is: 32
+Adding 32 - Res so far: 146846
+Number is: 225
+Adding 225 - Res so far: 147071
+Number is: 880
+Number is: 201
+Adding 201 - Res so far: 147272
+Number is: 823
+Adding 823 - Res so far: 148095
+Number is: 914
+Adding 914 - Res so far: 149009
+Number is: 724
+Adding 724 - Res so far: 149733
+Number is: 89
+Adding 89 - Res so far: 149822
+Number is: 267
+Adding 267 - Res so far: 150089
+Number is: 717
+Adding 717 - Res so far: 150806
+Number is: 54
+Adding 54 - Res so far: 150860
+Number is: 436
+Number is: 60
+Adding 60 - Res so far: 150920
+Number is: 69
+Adding 69 - Res so far: 150989
+Number is: 710
+Number is: 601
+Adding 601 - Res so far: 151590
+Number is: 306
+Adding 306 - Res so far: 151896
+Number is: 287
+Adding 287 - Res so far: 152183
+Number is: 65
+Adding 65 - Res so far: 152248
+Number is: 308
+Adding 308 - Res so far: 152556
+Number is: 926
+Adding 926 - Res so far: 153482
+Number is: 278
+Adding 278 - Res so far: 153760
+Number is: 415
+Adding 415 - Res so far: 154175
+Number is: 241
+Adding 241 - Res so far: 154416
+Number is: 827
+Adding 827 - Res so far: 155243
+Number is: 265
+Adding 265 - Res so far: 155508
+Number is: 662
+Adding 662 - Res so far: 156170
+Number is: 678
+Adding 678 - Res so far: 156848
+Number is: 734
+Adding 734 - Res so far: 157582
+Number is: 144
+Number is: 424
+Adding 424 - Res so far: 158006
+Number is: 434
+Adding 434 - Res so far: 158440
+Number is: 701
+Adding 701 - Res so far: 159141
+Number is: 380
+Adding 380 - Res so far: 159521
+Number is: 731
+Adding 731 - Res so far: 160252
+Number is: 24
+Adding 24 - Res so far: 160276
+Number is: 973
+Adding 973 - Res so far: 161249
+Number is: 741
+Adding 741 - Res so far: 161990
+Number is: 728
+Adding 728 - Res so far: 162718
+Number is: 357
+Adding 357 - Res so far: 163075
+Number is: 304
+Number is: 881
+Adding 881 - Res so far: 163956
+Number is: 238
+Adding 238 - Res so far: 164194
+Number is: 740
+Adding 740 - Res so far: 164934
+Number is: 947
+Adding 947 - Res so far: 165881
+Number is: 587
+Adding 587 - Res so far: 166468
+Number is: 22
+Adding 22 - Res so far: 166490
+Number is: 271
+Adding 271 - Res so far: 166761
+Number is: 603
+Adding 603 - Res so far: 167364
+Number is: 266
+Adding 266 - Res so far: 167630
+Number is: 918
+Adding 918 - Res so far: 168548
+Number is: 519
+Adding 519 - Res so far: 169067
+Number is: 617
+Adding 617 - Res so far: 169684
+Number is: 826
+Adding 826 - Res so far: 170510
+Number is: 268
+Adding 268 - Res so far: 170778
+Number is: 974
+Number is: 486
+Adding 486 - Res so far: 171264
+Number is: 376
+Number is: 295
+Adding 295 - Res so far: 171559
+Number is: 939
+Adding 939 - Res so far: 172498
+Number is: 363
+Adding 363 - Res so far: 172861
+Number is: 378
+Adding 378 - Res so far: 173239
+Number is: 302
+Adding 302 - Res so far: 173541
+Number is: 586
+Adding 586 - Res so far: 174127
+Number is: 740
+Adding 740 - Res so far: 174867
+Number is: 380
+Adding 380 - Res so far: 175247
+Number is: 931
+Adding 931 - Res so far: 176178
+Number is: 12
+Adding 12 - Res so far: 176190
+Number is: 387
+Adding 387 - Res so far: 176577
+Number is: 588
+Adding 588 - Res so far: 177165
+Number is: 315
+Adding 315 - Res so far: 177480
+Number is: 712
+Adding 712 - Res so far: 178192
+Number is: 491
+Number is: 956
+Adding 956 - Res so far: 179148
+Number is: 180
+Adding 180 - Res so far: 179328
+Number is: 454
+Adding 454 - Res so far: 179782
+Number is: 104
+Adding 104 - Res so far: 179886
+Number is: 661
+Adding 661 - Res so far: 180547
+Number is: 91
+Adding 91 - Res so far: 180638
+Number is: 811
+Adding 811 - Res so far: 181449
+Number is: 370
+Adding 370 - Res so far: 181819
+Number is: 471
+Adding 471 - Res so far: 182290
+Number is: 419
+Adding 419 - Res so far: 182709
+Number is: 804
+Number is: 464
+Adding 464 - Res so far: 183173
+Number is: 243
+Adding 243 - Res so far: 183416
+Number is: 578
+Adding 578 - Res so far: 183994
+Number is: 604
+Number is: 250
+Adding 250 - Res so far: 184244
+Number is: 784
+Adding 784 - Res so far: 185028
+Number is: 750
+Adding 750 - Res so far: 185778
+Number is: 998
+Adding 998 - Res so far: 186776
+Number is: 245
+Adding 245 - Res so far: 187021
+Number is: 165
+Adding 165 - Res so far: 187186
+Number is: 771
+Adding 771 - Res so far: 187957
+Number is: 691
+Adding 691 - Res so far: 188648
+Number is: 768
+Adding 768 - Res so far: 189416
+Number is: 654
+Adding 654 - Res so far: 190070
+Number is: 261
+Adding 261 - Res so far: 190331
+Number is: 566
+Adding 566 - Res so far: 190897
+Number is: 441
+Adding 441 - Res so far: 191338
+Number is: 91
+Adding 91 - Res so far: 191429
+Number is: 194
+Adding 194 - Res so far: 191623
+Number is: 643
+Adding 643 - Res so far: 192266
+Number is: 932
+Adding 932 - Res so far: 193198
+Number is: 379
+Adding 379 - Res so far: 193577
+Number is: 86
+Adding 86 - Res so far: 193663
+Number is: 940
+Adding 940 - Res so far: 194603
+Number is: 263
+Adding 263 - Res so far: 194866
+Number is: 638
+Adding 638 - Res so far: 195504
+Number is: 344
+Adding 344 - Res so far: 195848
+Number is: 795
+Number is: 991
+Adding 991 - Res so far: 196839
+Number is: 544
+Adding 544 - Res so far: 197383
+Number is: 767
+Adding 767 - Res so far: 198150
+Number is: 266
+Adding 266 - Res so far: 198416
+Number is: 708
+Adding 708 - Res so far: 199124
+Number is: 727
+Adding 727 - Res so far: 199851
+Number is: 191
+Adding 191 - Res so far: 200042
+Number is: 698
+Adding 698 - Res so far: 200740
+Number is: 990
+Adding 990 - Res so far: 201730
+Number is: 308
+Adding 308 - Res so far: 202038
+Number is: 325
+Adding 325 - Res so far: 202363
+Number is: 44
+Adding 44 - Res so far: 202407
+Number is: 18
+Adding 18 - Res so far: 202425
+Number is: 397
+Adding 397 - Res so far: 202822
+Number is: 93
+Adding 93 - Res so far: 202915
+Number is: 649
+Adding 649 - Res so far: 203564
+Number is: 900
+Adding 900 - Res so far: 204464
+Number is: 62
+Adding 62 - Res so far: 204526
+Number is: 322
+Adding 322 - Res so far: 204848
+Number is: 339
+Adding 339 - Res so far: 205187
+Number is: 619
+Adding 619 - Res so far: 205806
+Number is: 404
+Adding 404 - Res so far: 206210
+Number is: 540
+Number is: 742
+Adding 742 - Res so far: 206952
+Number is: 196
+Adding 196 - Res so far: 207148
+Number is: 874
+Adding 874 - Res so far: 208022
+Number is: 205
+Adding 205 - Res so far: 208227
+Number is: 96
+Adding 96 - Res so far: 208323
+Number is: 203
+Adding 203 - Res so far: 208526
+Number is: 224
+Adding 224 - Res so far: 208750
+Number is: 704
+Adding 704 - Res so far: 209454
+Number is: 727
+Adding 727 - Res so far: 210181
+Number is: 496
+Number is: 135
+Adding 135 - Res so far: 210316
+Number is: 769
+Adding 769 - Res so far: 211085
+Number is: 757
+Adding 757 - Res so far: 211842
+Number is: 424
+Adding 424 - Res so far: 212266
+Number is: 714
+Adding 714 - Res so far: 212980
+Number is: 5
+Adding 5 - Res so far: 212985
+Number is: 884
+Adding 884 - Res so far: 213869
+Number is: 114
+Adding 114 - Res so far: 213983
+Number is: 674
+Adding 674 - Res so far: 214657
+Number is: 144
+Adding 144 - Res so far: 214801
+Number is: 83
+Adding 83 - Res so far: 214884
+Number is: 302
+Adding 302 - Res so far: 215186
+Number is: 29
+Adding 29 - Res so far: 215215
+Number is: 179
+Adding 179 - Res so far: 215394
+Number is: 104
+Adding 104 - Res so far: 215498
+Number is: 531
+Adding 531 - Res so far: 216029
+Number is: 629
+Number is: 455
+Adding 455 - Res so far: 216484
+Number is: 473
+Adding 473 - Res so far: 216957
+Number is: 300
+Adding 300 - Res so far: 217257
+Number is: 254
+Adding 254 - Res so far: 217511
+Number is: 640
+Adding 640 - Res so far: 218151
+Number is: 296
+Adding 296 - Res so far: 218447
+Number is: 1
+Number is: 548
+Adding 548 - Res so far: 218995
+Number is: 103
+Adding 103 - Res so far: 219098
+Number is: 381
+Adding 381 - Res so far: 219479
+Number is: 365
+Adding 365 - Res so far: 219844
+Number is: 713
+Adding 713 - Res so far: 220557
+Number is: 282
+Number is: 744
+Adding 744 - Res so far: 221301
+Number is: 709
+Adding 709 - Res so far: 222010
+Number is: 431
+Number is: 837
+Adding 837 - Res so far: 222847
+Number is: 9
+Adding 9 - Res so far: 222856
+Number is: 90
+Adding 90 - Res so far: 222946
+Number is: 347
+Adding 347 - Res so far: 223293
+Number is: 179
+Adding 179 - Res so far: 223472
+Number is: 359
+Adding 359 - Res so far: 223831
+Number is: 92
+Number is: 304
+Adding 304 - Res so far: 224135
+Number is: 923
+Adding 923 - Res so far: 225058
+Number is: 446
+Adding 446 - Res so far: 225504
+Number is: 385
+Adding 385 - Res so far: 225889
+Number is: 699
+Adding 699 - Res so far: 226588
+Number is: 749
+Adding 749 - Res so far: 227337
+Number is: 193
+Adding 193 - Res so far: 227530
+Number is: 206
+Adding 206 - Res so far: 227736
+Number is: 922
+Adding 922 - Res so far: 228658
+Number is: 197
+Adding 197 - Res so far: 228855
+Number is: 128
+Adding 128 - Res so far: 228983
+Number is: 273
+Adding 273 - Res so far: 229256
+Number is: 758
+Adding 758 - Res so far: 230014
+Number is: 439
+Adding 439 - Res so far: 230453
+Number is: 650
+Adding 650 - Res so far: 231103
+Number is: 54
+Adding 54 - Res so far: 231157
+Number is: 736
+Adding 736 - Res so far: 231893
+Number is: 817
+Adding 817 - Res so far: 232710
+Number is: 152
+Adding 152 - Res so far: 232862
+Number is: 594
+Number is: 949
+Adding 949 - Res so far: 233811
+Number is: 807
+Adding 807 - Res so far: 234618
+Number is: 224
+Adding 224 - Res so far: 234842
+Number is: 124
+Adding 124 - Res so far: 234966
+Number is: 889
+Adding 889 - Res so far: 235855
+Number is: 625
+Adding 625 - Res so far: 236480
+Number is: 139
+Number is: 667
+Adding 667 - Res so far: 237147
+Number is: 239
+Adding 239 - Res so far: 237386
+Number is: 387
+Adding 387 - Res so far: 237773
+Number is: 806
+Adding 806 - Res so far: 238579
+Number is: 788
+Adding 788 - Res so far: 239367
+Number is: 632
+Adding 632 - Res so far: 239999
+Number is: 8
+Adding 8 - Res so far: 240007
+Number is: 584
+Adding 584 - Res so far: 240591
+Number is: 280
+Adding 280 - Res so far: 240871
+Number is: 11
+Adding 11 - Res so far: 240882
+Number is: 726
+Adding 726 - Res so far: 241608
+Number is: 181
+Adding 181 - Res so far: 241789
+Number is: 761
+Adding 761 - Res so far: 242550
+Number is: 66
+Adding 66 - Res so far: 242616
+Number is: 64
+Adding 64 - Res so far: 242680
+Number is: 14
+Adding 14 - Res so far: 242694
+Number is: 742
+Adding 742 - Res so far: 243436
+Number is: 736
+Number is: 725
+Adding 725 - Res so far: 244161
+Number is: 708
+Adding 708 - Res so far: 244869
+Number is: 667
+Number is: 332
+Adding 332 - Res so far: 245201
+Number is: 828
+Adding 828 - Res so far: 246029
+Number is: 750
+Adding 750 - Res so far: 246779
+Number is: 425
+Adding 425 - Res so far: 247204
+Number is: 944
+Adding 944 - Res so far: 248148
+Number is: 719
+Adding 719 - Res so far: 248867
+Number is: 110
+Adding 110 - Res so far: 248977
+Number is: 348
+Adding 348 - Res so far: 249325
+Number is: 121
+Adding 121 - Res so far: 249446
+Number is: 961
+Adding 961 - Res so far: 250407
+Number is: 971
+Adding 971 - Res so far: 251378
+Number is: 629
+Adding 629 - Res so far: 252007
+Number is: 830
+Adding 830 - Res so far: 252837
+Number is: 91
+Number is: 241
+Adding 241 - Res so far: 253078
+Number is: 491
+Adding 491 - Res so far: 253569
+Number is: 930
+Adding 930 - Res so far: 254499
+Number is: 561
+Number is: 889
+Adding 889 - Res so far: 255388
+Number is: 710
+Adding 710 - Res so far: 256098
+Number is: 333
+Adding 333 - Res so far: 256431
+Number is: 163
+Adding 163 - Res so far: 256594
+Number is: 311
+Adding 311 - Res so far: 256905
+Number is: 252
+Adding 252 - Res so far: 257157
+Number is: 270
+Adding 270 - Res so far: 257427
+Number is: 165
+Adding 165 - Res so far: 257592
+Number is: 208
+Adding 208 - Res so far: 257800
+Number is: 914
+Adding 914 - Res so far: 258714
+Number is: 126
+Number is: 267
+Adding 267 - Res so far: 258981
+Number is: 183
+Number is: 952
+Adding 952 - Res so far: 259933
+Number is: 645
+Adding 645 - Res so far: 260578
+Number is: 414
+Adding 414 - Res so far: 260992
+Number is: 822
+Adding 822 - Res so far: 261814
+Number is: 69
+Adding 69 - Res so far: 261883
+Number is: 112
+Adding 112 - Res so far: 261995
+Number is: 464
+Number is: 267
+Adding 267 - Res so far: 262262
+Number is: 359
+Number is: 7
+Adding 7 - Res so far: 262269
+Number is: 806
+Adding 806 - Res so far: 263075
+Number is: 931
+Adding 931 - Res so far: 264006
+Number is: 355
+Adding 355 - Res so far: 264361
+Number is: 928
+Adding 928 - Res so far: 265289
+Number is: 854
+Adding 854 - Res so far: 266143
+Number is: 993
+Adding 993 - Res so far: 267136
+Number is: 439
+Number is: 897
+Adding 897 - Res so far: 268033
+Number is: 8
+Number is: 381
+Adding 381 - Res so far: 268414
+Number is: 748
+Adding 748 - Res so far: 269162
+Number is: 987
+Adding 987 - Res so far: 270149
+Number is: 437
+Adding 437 - Res so far: 270586
+Number is: 954
+Adding 954 - Res so far: 271540
+Number is: 595
+Adding 595 - Res so far: 272135
+Number is: 783
+Adding 783 - Res so far: 272918
+Number is: 49
+Adding 49 - Res so far: 272967
+Number is: 110
+Adding 110 - Res so far: 273077
+Number is: 675
+Adding 675 - Res so far: 273752
+Number is: 8
+Adding 8 - Res so far: 273760
+Number is: 60
+Adding 60 - Res so far: 273820
+Number is: 981
+Adding 981 - Res so far: 274801
+Number is: 730
+Adding 730 - Res so far: 275531
+Number is: 336
+Adding 336 - Res so far: 275867
+Number is: 120
+Adding 120 - Res so far: 275987
+Number is: 790
+Adding 790 - Res so far: 276777
+Number is: 90
+Adding 90 - Res so far: 276867
+Number is: 212
+Adding 212 - Res so far: 277079
+Number is: 985
+Adding 985 - Res so far: 278064
+Number is: 153
+Number is: 12
+Adding 12 - Res so far: 278076
+Number is: 912
+Adding 912 - Res so far: 278988
+Number is: 383
+Adding 383 - Res so far: 279371
+Number is: 665
+Adding 665 - Res so far: 280036
+Number is: 754
+Adding 754 - Res so far: 280790
+Number is: 950
+Adding 950 - Res so far: 281740
+Number is: 790
+Adding 790 - Res so far: 282530
+Number is: 896
+Adding 896 - Res so far: 283426
+Number is: 773
+Adding 773 - Res so far: 284199
+Number is: 777
+Adding 777 - Res so far: 284976
+Number is: 581
+Adding 581 - Res so far: 285557
+Number is: 514
+Adding 514 - Res so far: 286071
+Number is: 910
+Adding 910 - Res so far: 286981
+Number is: 5
+Number is: 579
+Adding 579 - Res so far: 287560
+Number is: 496
+Adding 496 - Res so far: 288056
+Number is: 347
+Number is: 790
+Adding 790 - Res so far: 288846
+Number is: 334
+Adding 334 - Res so far: 289180
+Number is: 912
+Adding 912 - Res so far: 290092
+Number is: 692
+Adding 692 - Res so far: 290784
+Number is: 609
+Adding 609 - Res so far: 291393
+Number is: 694
+Adding 694 - Res so far: 292087
+Number is: 693
+Adding 693 - Res so far: 292780
+Number is: 213
+Adding 213 - Res so far: 292993
+Number is: 620
+Adding 620 - Res so far: 293613
+Number is: 695
+Adding 695 - Res so far: 294308
+Number is: 871
+Number is: 385
+Adding 385 - Res so far: 294693
+Number is: 82
+Number is: 785
+Adding 785 - Res so far: 295478
+Number is: 163
+Adding 163 - Res so far: 295641
+Number is: 984
+Adding 984 - Res so far: 296625
+Number is: 545
+Number is: 978
+Adding 978 - Res so far: 297603
+Number is: 971
+Adding 971 - Res so far: 298574
+Number is: 477
+Adding 477 - Res so far: 299051
+Number is: 465
+Adding 465 - Res so far: 299516
+Number is: 196
+Adding 196 - Res so far: 299712
+Number is: 313
+Adding 313 - Res so far: 300025
+Number is: 447
+Adding 447 - Res so far: 300472
+Number is: 766
+Adding 766 - Res so far: 301238
+Number is: 49
+Number is: 126
+Adding 126 - Res so far: 301364
+Number is: 480
+Adding 480 - Res so far: 301844
+Number is: 798
+Adding 798 - Res so far: 302642
+Number is: 792
+Adding 792 - Res so far: 303434
+Number is: 359
+Adding 359 - Res so far: 303793
+Number is: 193
+Adding 193 - Res so far: 303986
+Number is: 837
+Adding 837 - Res so far: 304823
+Number is: 157
+Adding 157 - Res so far: 304980
+Number is: 773
+Adding 773 - Res so far: 305753
+Number is: 752
+Adding 752 - Res so far: 306505
+Number is: 447
+Adding 447 - Res so far: 306952
+Number is: 565
+Adding 565 - Res so far: 307517
+Number is: 53
+Adding 53 - Res so far: 307570
+Number is: 384
+Adding 384 - Res so far: 307954
+Number is: 449
+Adding 449 - Res so far: 308403
+Number is: 470
+Number is: 749
+Adding 749 - Res so far: 309152
+Number is: 792
+Adding 792 - Res so far: 309944
+Number is: 138
+Adding 138 - Res so far: 310082
+Number is: 527
+Adding 527 - Res so far: 310609
+Number is: 339
+Adding 339 - Res so far: 310948
+Number is: 299
+Adding 299 - Res so far: 311247
+Number is: 505
+Adding 505 - Res so far: 311752
+Number is: 287
+Number is: 691
+Adding 691 - Res so far: 312443
+Number is: 700
+Adding 700 - Res so far: 313143
+Number is: 96
+Number is: 721
+Adding 721 - Res so far: 313864
+Number is: 942
+Adding 942 - Res so far: 314806
+Number is: 845
+Number is: 713
+Adding 713 - Res so far: 315519
+Number is: 260
+Adding 260 - Res so far: 315779
+Number is: 491
+Adding 491 - Res so far: 316270
+Number is: 452
+Adding 452 - Res so far: 316722
+Number is: 336
+Adding 336 - Res so far: 317058
+Number is: 73
+Adding 73 - Res so far: 317131
+Number is: 960
+Adding 960 - Res so far: 318091
+Number is: 238
+Adding 238 - Res so far: 318329
+Number is: 163
+Adding 163 - Res so far: 318492
+Number is: 689
+Adding 689 - Res so far: 319181
+Number is: 831
+Adding 831 - Res so far: 320012
+Number is: 282
+Number is: 709
+Adding 709 - Res so far: 320721
+Number is: 960
+Number is: 204
+Number is: 59
+Number is: 97
+Number is: 199
+Adding 199 - Res so far: 320920
+Number is: 111
+Adding 111 - Res so far: 321031
+Number is: 498
+Adding 498 - Res so far: 321529
+Number is: 557
+Adding 557 - Res so far: 322086
+Number is: 972
+Adding 972 - Res so far: 323058
+Number is: 450
+Adding 450 - Res so far: 323508
+Number is: 653
+Adding 653 - Res so far: 324161
+Number is: 476
+Adding 476 - Res so far: 324637
+Number is: 398
+Adding 398 - Res so far: 325035
+Number is: 619
+Adding 619 - Res so far: 325654
+Number is: 280
+Adding 280 - Res so far: 325934
+Number is: 923
+Adding 923 - Res so far: 326857
+Number is: 31
+Adding 31 - Res so far: 326888
+Number is: 691
+Adding 691 - Res so far: 327579
+Number is: 67
+Adding 67 - Res so far: 327646
+Number is: 782
+Adding 782 - Res so far: 328428
+Number is: 268
+Adding 268 - Res so far: 328696
+Number is: 428
+Adding 428 - Res so far: 329124
+Number is: 408
+Adding 408 - Res so far: 329532
+Number is: 740
+Adding 740 - Res so far: 330272
+Number is: 576
+Adding 576 - Res so far: 330848
+Number is: 734
+Adding 734 - Res so far: 331582
+Number is: 317
+Adding 317 - Res so far: 331899
+Number is: 114
+Adding 114 - Res so far: 332013
+Number is: 332
+Adding 332 - Res so far: 332345
+Number is: 795
+Number is: 743
+Adding 743 - Res so far: 333088
+Number is: 908
+Adding 908 - Res so far: 333996
+Number is: 381
+Adding 381 - Res so far: 334377
+Number is: 914
+Adding 914 - Res so far: 335291
+Number is: 420
+Adding 420 - Res so far: 335711
+Number is: 647
+Adding 647 - Res so far: 336358
+Number is: 528
+Adding 528 - Res so far: 336886
+Number is: 284
+Adding 284 - Res so far: 337170
+Number is: 825
+Adding 825 - Res so far: 337995
+Number is: 721
+Adding 721 - Res so far: 338716
+Number is: 929
+Adding 929 - Res so far: 339645
+Number is: 324
+Adding 324 - Res so far: 339969
+Number is: 167
+Adding 167 - Res so far: 340136
+Number is: 561
+Adding 561 - Res so far: 340697
+Number is: 815
+Adding 815 - Res so far: 341512
+Number is: 466
+Adding 466 - Res so far: 341978
+Number is: 389
+Adding 389 - Res so far: 342367
+Number is: 304
+Adding 304 - Res so far: 342671
+Number is: 480
+Adding 480 - Res so far: 343151
+Number is: 851
+Adding 851 - Res so far: 344002
+Number is: 585
+Adding 585 - Res so far: 344587
+Number is: 942
+Adding 942 - Res so far: 345529
+Number is: 496
+Adding 496 - Res so far: 346025
+Number is: 53
+Adding 53 - Res so far: 346078
+Number is: 170
+Number is: 938
+Adding 938 - Res so far: 347016
+Number is: 518
+Adding 518 - Res so far: 347534
+Number is: 368
+Adding 368 - Res so far: 347902
+Number is: 941
+Adding 941 - Res so far: 348843
+Number is: 930
+Adding 930 - Res so far: 349773
+Number is: 364
+Adding 364 - Res so far: 350137
+Number is: 522
+Adding 522 - Res so far: 350659
+Number is: 59
+Adding 59 - Res so far: 350718
+Number is: 652
+Adding 652 - Res so far: 351370
+Number is: 963
+Adding 963 - Res so far: 352333
+Number is: 949
+Adding 949 - Res so far: 353282
+Number is: 828
+Adding 828 - Res so far: 354110
+Number is: 784
+Adding 784 - Res so far: 354894
+Number is: 860
+Adding 860 - Res so far: 355754
+Number is: 420
+Adding 420 - Res so far: 356174
+Number is: 548
+Number is: 310
+Adding 310 - Res so far: 356484
+Number is: 476
+Adding 476 - Res so far: 356960
+Number is: 94
+Adding 94 - Res so far: 357054
+Number is: 589
+Adding 589 - Res so far: 357643
+Number is: 833
+Adding 833 - Res so far: 358476
+Number is: 426
+Adding 426 - Res so far: 358902
+Number is: 940
+Adding 940 - Res so far: 359842
+Number is: 959
+Adding 959 - Res so far: 360801
+Number is: 993
+Adding 993 - Res so far: 361794
+Number is: 88
+Adding 88 - Res so far: 361882
+Number is: 624
+Adding 624 - Res so far: 362506
+Number is: 917
+Adding 917 - Res so far: 363423
+Number is: 838
+Adding 838 - Res so far: 364261
+Number is: 664
+Adding 664 - Res so far: 364925
+Number is: 721
+Number is: 833
+Adding 833 - Res so far: 365758
+Number is: 672
+Adding 672 - Res so far: 366430
+Number is: 19
+Adding 19 - Res so far: 366449
+Number is: 350
+Adding 350 - Res so far: 366799
+Number is: 333
+Adding 333 - Res so far: 367132
+Number is: 707
+Adding 707 - Res so far: 367839
+Number is: 240
+Number is: 336
+Adding 336 - Res so far: 368175
+Number is: 746
+Adding 746 - Res so far: 368921
+Number is: 263
+Adding 263 - Res so far: 369184
+Number is: 463
+Adding 463 - Res so far: 369647
+Number is: 220
+Adding 220 - Res so far: 369867
+Number is: 663
+Adding 663 - Res so far: 370530
+Number is: 849
+Adding 849 - Res so far: 371379
+Number is: 631
+Adding 631 - Res so far: 372010
+Number is: 712
+Adding 712 - Res so far: 372722
+Number is: 308
+Adding 308 - Res so far: 373030
+Number is: 580
+Adding 580 - Res so far: 373610
+Number is: 78
+Adding 78 - Res so far: 373688
+Number is: 422
+Adding 422 - Res so far: 374110
+Number is: 444
+Adding 444 - Res so far: 374554
+Number is: 281
+Adding 281 - Res so far: 374835
+Number is: 447
+Adding 447 - Res so far: 375282
+Number is: 37
+Adding 37 - Res so far: 375319
+Number is: 814
+Adding 814 - Res so far: 376133
+Number is: 788
+Adding 788 - Res so far: 376921
+Number is: 810
+Adding 810 - Res so far: 377731
+Number is: 369
+Adding 369 - Res so far: 378100
+Number is: 985
+Adding 985 - Res so far: 379085
+Number is: 92
+Adding 92 - Res so far: 379177
+Number is: 684
+Adding 684 - Res so far: 379861
+Number is: 74
+Adding 74 - Res so far: 379935
+Number is: 279
+Adding 279 - Res so far: 380214
+Number is: 128
+Adding 128 - Res so far: 380342
+Number is: 464
+Adding 464 - Res so far: 380806
+Number is: 944
+Adding 944 - Res so far: 381750
+Number is: 978
+Adding 978 - Res so far: 382728
+Number is: 163
+Adding 163 - Res so far: 382891
+Number is: 984
+Adding 984 - Res so far: 383875
+Number is: 5
+Adding 5 - Res so far: 383880
+Number is: 165
+Adding 165 - Res so far: 384045
+Number is: 285
+Number is: 889
+Adding 889 - Res so far: 384934
+Number is: 969
+Adding 969 - Res so far: 385903
+Number is: 5
+Adding 5 - Res so far: 385908
+Number is: 272
+Adding 272 - Res so far: 386180
+Number is: 374
+Adding 374 - Res so far: 386554
+Number is: 948
+Adding 948 - Res so far: 387502
+Number is: 13
+Adding 13 - Res so far: 387515
+Number is: 358
+Number is: 796
+Adding 796 - Res so far: 388311
+Number is: 632
+Adding 632 - Res so far: 388943
+Number is: 789
+Adding 789 - Res so far: 389732
+Number is: 91
+Adding 91 - Res so far: 389823
+Number is: 66
+Adding 66 - Res so far: 389889
+Number is: 152
+Adding 152 - Res so far: 390041
+Number is: 508
+Adding 508 - Res so far: 390549
+Number is: 3
+Adding 3 - Res so far: 390552
+Number is: 544
+Adding 544 - Res so far: 391096
+Number is: 517
+Number is: 703
+Adding 703 - Res so far: 391799
+Number is: 774
+Adding 774 - Res so far: 392573
+Number is: 434
+Adding 434 - Res so far: 393007
+Number is: 794
+Adding 794 - Res so far: 393801
+Number is: 932
+Adding 932 - Res so far: 394733
+Number is: 241
+Adding 241 - Res so far: 394974
+Number is: 74
+Adding 74 - Res so far: 395048
+Number is: 974
+Adding 974 - Res so far: 396022
+Number is: 954
+Adding 954 - Res so far: 396976
+Number is: 375
+Adding 375 - Res so far: 397351
+Number is: 772
+Adding 772 - Res so far: 398123
+Number is: 218
+Adding 218 - Res so far: 398341
+Number is: 414
+Adding 414 - Res so far: 398755
+Number is: 366
+Adding 366 - Res so far: 399121
+Number is: 501
+Adding 501 - Res so far: 399622
+Number is: 566
+Adding 566 - Res so far: 400188
+Number is: 599
+Adding 599 - Res so far: 400787
+Number is: 256
+Adding 256 - Res so far: 401043
+Number is: 468
+Adding 468 - Res so far: 401511
+Number is: 942
+Number is: 101
+Adding 101 - Res so far: 401612
+Number is: 156
+Adding 156 - Res so far: 401768
+Number is: 998
+Adding 998 - Res so far: 402766
+Number is: 263
+Number is: 312
+Adding 312 - Res so far: 403078
+Number is: 767
+Adding 767 - Res so far: 403845
+Number is: 95
+Adding 95 - Res so far: 403940
+Number is: 838
+Adding 838 - Res so far: 404778
+Number is: 162
+Adding 162 - Res so far: 404940
+Number is: 130
+Adding 130 - Res so far: 405070
+Number is: 583
+Adding 583 - Res so far: 405653
+Number is: 544
+Adding 544 - Res so far: 406197
+Number is: 176
+Adding 176 - Res so far: 406373
+Number is: 936
+Adding 936 - Res so far: 407309
+Number is: 826
+Adding 826 - Res so far: 408135
+Number is: 421
+Adding 421 - Res so far: 408556
+Number is: 139
+Adding 139 - Res so far: 408695
+Number is: 982
+Number is: 893
+Adding 893 - Res so far: 409588
+Number is: 284
+Adding 284 - Res so far: 409872
+Number is: 724
+Adding 724 - Res so far: 410596
+Number is: 661
+Number is: 694
+Number is: 85
+Adding 85 - Res so far: 410681
+Number is: 438
+Adding 438 - Res so far: 411119
+Number is: 51
+Adding 51 - Res so far: 411170
+Number is: 616
+Adding 616 - Res so far: 411786
+Number is: 698
+Adding 698 - Res so far: 412484
+Number is: 36
+Adding 36 - Res so far: 412520
+Number is: 262
+Adding 262 - Res so far: 412782
+Number is: 357
+Adding 357 - Res so far: 413139
+Number is: 224
+Number is: 491
+Number is: 193
+Adding 193 - Res so far: 413332
+Number is: 596
+Adding 596 - Res so far: 413928
+Number is: 844
+Adding 844 - Res so far: 414772
+Number is: 387
+Adding 387 - Res so far: 415159
+Number is: 132
+Number is: 84
+Adding 84 - Res so far: 415243
+Number is: 362
+Adding 362 - Res so far: 415605
+Number is: 98
+Adding 98 - Res so far: 415703
+Number is: 14
+Adding 14 - Res so far: 415717
+Number is: 394
+Adding 394 - Res so far: 416111
+Number is: 56
+Adding 56 - Res so far: 416167
+Number is: 432
+Adding 432 - Res so far: 416599
+Number is: 512
+Adding 512 - Res so far: 417111
+Number is: 704
+Adding 704 - Res so far: 417815
+Number is: 424
+Number is: 74
+Adding 74 - Res so far: 417889
+Number is: 196
+Adding 196 - Res so far: 418085
+Number is: 875
+Adding 875 - Res so far: 418960
+Number is: 132
+Adding 132 - Res so far: 419092
+Number is: 229
+Adding 229 - Res so far: 419321
+Number is: 723
+Adding 723 - Res so far: 420044
+Number is: 568
+Adding 568 - Res so far: 420612
+Number is: 108
+Adding 108 - Res so far: 420720
+Number is: 672
+Number is: 55
+Adding 55 - Res so far: 420775
+Number is: 172
+Adding 172 - Res so far: 420947
+Number is: 217
+Adding 217 - Res so far: 421164
+Number is: 289
+Adding 289 - Res so far: 421453
+Number is: 427
+Adding 427 - Res so far: 421880
+Number is: 795
+Adding 795 - Res so far: 422675
+Number is: 214
+Number is: 336
+Adding 336 - Res so far: 423011
+Number is: 94
+Adding 94 - Res so far: 423105
+Number is: 988
+Adding 988 - Res so far: 424093
+Number is: 86
+Adding 86 - Res so far: 424179
+Number is: 838
+Adding 838 - Res so far: 425017
+Number is: 540
+Number is: 902
+Adding 902 - Res so far: 425919
+Number is: 922
+Adding 922 - Res so far: 426841
+Number is: 288
+Adding 288 - Res so far: 427129
+Number is: 719
+Adding 719 - Res so far: 427848
+Number is: 845
+Adding 845 - Res so far: 428693
+Number is: 558
+Adding 558 - Res so far: 429251
+Number is: 524
+Adding 524 - Res so far: 429775
+Number is: 195
+Adding 195 - Res so far: 429970
+Number is: 704
+Adding 704 - Res so far: 430674
+Number is: 77
+Number is: 842
+Adding 842 - Res so far: 431516
+Number is: 166
+Adding 166 - Res so far: 431682
+Number is: 883
+Adding 883 - Res so far: 432565
+Number is: 503
+Adding 503 - Res so far: 433068
+Number is: 451
+Adding 451 - Res so far: 433519
+Number is: 305
+Number is: 600
+Adding 600 - Res so far: 434119
+Number is: 900
+Adding 900 - Res so far: 435019
+Number is: 280
+Adding 280 - Res so far: 435299
+Number is: 169
+Adding 169 - Res so far: 435468
+Number is: 586
+Adding 586 - Res so far: 436054
+Number is: 751
+Adding 751 - Res so far: 436805
+Number is: 944
+Number is: 116
+Adding 116 - Res so far: 436921
+Number is: 416
+Number is: 877
+Adding 877 - Res so far: 437798
+Number is: 418
+Adding 418 - Res so far: 438216
+Number is: 194
+Adding 194 - Res so far: 438410
+Number is: 644
+Adding 644 - Res so far: 439054
+Number is: 244
+Adding 244 - Res so far: 439298
+Number is: 354
+Adding 354 - Res so far: 439652
+Number is: 118
+Adding 118 - Res so far: 439770
+Number is: 208
+Adding 208 - Res so far: 439978
+Number is: 788
+Adding 788 - Res so far: 440766
+Number is: 826
+Adding 826 - Res so far: 441592
+Number is: 207
+Adding 207 - Res so far: 441799
+Number is: 152
+Adding 152 - Res so far: 441951
+Number is: 893
+Adding 893 - Res so far: 442844
+Number is: 608
+Adding 608 - Res so far: 443452
+Number is: 948
+Adding 948 - Res so far: 444400
+Number is: 203
+Adding 203 - Res so far: 444603
+Number is: 206
+Adding 206 - Res so far: 444809
+Number is: 341
+Number is: 977
+Adding 977 - Res so far: 445786
+Number is: 916
+Adding 916 - Res so far: 446702
+Number is: 49
+Adding 49 - Res so far: 446751
+Number is: 385
+Adding 385 - Res so far: 447136
+Number is: 266
+Adding 266 - Res so far: 447402
+Number is: 607
+Adding 607 - Res so far: 448009
+Number is: 990
+Adding 990 - Res so far: 448999
+Number is: 964
+Adding 964 - Res so far: 449963
+Number is: 340
+Adding 340 - Res so far: 450303
+Number is: 697
+Adding 697 - Res so far: 451000
+Number is: 62
+Adding 62 - Res so far: 451062
+Number is: 526
+Adding 526 - Res so far: 451588
+Number is: 675
+Adding 675 - Res so far: 452263
+Number is: 612
+Adding 612 - Res so far: 452875
+Number is: 604
+Adding 604 - Res so far: 453479
+Number is: 492
+Adding 492 - Res so far: 453971
+Number is: 884
+Adding 884 - Res so far: 454855
+Number is: 212
+Adding 212 - Res so far: 455067
+Number is: 157
+Adding 157 - Res so far: 455224
+Number is: 679
+Adding 679 - Res so far: 455903
+Number is: 706
+Adding 706 - Res so far: 456609
+Number is: 716
+Adding 716 - Res so far: 457325
+Number is: 518
+Adding 518 - Res so far: 457843
+Number is: 103
+Adding 103 - Res so far: 457946
+Number is: 749
+Adding 749 - Res so far: 458695
+Number is: 989
+Adding 989 - Res so far: 459684
+Number is: 739
+Adding 739 - Res so far: 460423
+Number is: 212
+Number is: 684
+Adding 684 - Res so far: 461107
+Number is: 35
+Adding 35 - Res so far: 461142
+Number is: 785
+Adding 785 - Res so far: 461927
+Number is: 343
+Adding 343 - Res so far: 462270
+Number is: 680
+Adding 680 - Res so far: 462950
+Number is: 423
+Adding 423 - Res so far: 463373
+Number is: 476
+Adding 476 - Res so far: 463849
+Number is: 420
+Adding 420 - Res so far: 464269
+Number is: 241
+Adding 241 - Res so far: 464510
+Number is: 532
+Adding 532 - Res so far: 465042
+Number is: 864
+Adding 864 - Res so far: 465906
+Number is: 826
+Adding 826 - Res so far: 466732
+Number is: 403
+Adding 403 - Res so far: 467135
+Number is: 311
+Adding 311 - Res so far: 467446
+Number is: 60
+Adding 60 - Res so far: 467506
+Number is: 451
+Adding 451 - Res so far: 467957
+Number is: 562
+Adding 562 - Res so far: 468519
+Number is: 306
+Number is: 420
+Adding 420 - Res so far: 468939
+Number is: 321
+Adding 321 - Res so far: 469260
+Number is: 241
+Adding 241 - Res so far: 469501
+Number is: 240
+Adding 240 - Res so far: 469741
+Number is: 845
+Adding 845 - Res so far: 470586
+Number is: 740
+Number is: 968
+Adding 968 - Res so far: 471554
+Number is: 389
+Adding 389 - Res so far: 471943
+Number is: 177
+Adding 177 - Res so far: 472120
+Number is: 640
+Adding 640 - Res so far: 472760
+Number is: 82
+Adding 82 - Res so far: 472842
+Number is: 963
+Adding 963 - Res so far: 473805
+Number is: 211
+Adding 211 - Res so far: 474016
+Number is: 38
+Adding 38 - Res so far: 474054
+Number is: 901
+Adding 901 - Res so far: 474955
+Number is: 404
+Number is: 253
+Adding 253 - Res so far: 475208
+Number is: 37
+Adding 37 - Res so far: 475245
+Number is: 218
+Adding 218 - Res so far: 475463
+Number is: 501
+Adding 501 - Res so far: 475964
+Number is: 320
+Adding 320 - Res so far: 476284
+Number is: 215
+Adding 215 - Res so far: 476499
+Number is: 264
+Adding 264 - Res so far: 476763
+Number is: 298
+Adding 298 - Res so far: 477061
+Number is: 970
+Adding 970 - Res so far: 478031
+Number is: 801
+Adding 801 - Res so far: 478832
+Number is: 569
+Adding 569 - Res so far: 479401
+Number is: 3
+Adding 3 - Res so far: 479404
+Number is: 859
+Adding 859 - Res so far: 480263
+Number is: 136
+Adding 136 - Res so far: 480399
+Number is: 818
+Adding 818 - Res so far: 481217
+Number is: 212
+Adding 212 - Res so far: 481429
+Number is: 91
+Adding 91 - Res so far: 481520
+Number is: 72
+Adding 72 - Res so far: 481592
+Number is: 750
+Adding 750 - Res so far: 482342
+Number is: 775
+Adding 775 - Res so far: 483117
+Number is: 728
+Adding 728 - Res so far: 483845
+Number is: 29
+Adding 29 - Res so far: 483874
+Number is: 270
+Number is: 984
+Adding 984 - Res so far: 484858
+Number is: 371
+Number is: 639
+Adding 639 - Res so far: 485497
+Number is: 670
+Adding 670 - Res so far: 486167
+Number is: 959
+Adding 959 - Res so far: 487126
+Number is: 438
+Adding 438 - Res so far: 487564
+Number is: 524
+Adding 524 - Res so far: 488088
+Number is: 943
+Adding 943 - Res so far: 489031
+Number is: 755
+Adding 755 - Res so far: 489786
+Number is: 162
+Adding 162 - Res so far: 489948
+Number is: 446
+Adding 446 - Res so far: 490394
+Number is: 290
+Adding 290 - Res so far: 490684
+Number is: 751
+Adding 751 - Res so far: 491435
+Number is: 557
+Adding 557 - Res so far: 491992
+Number is: 483
+Adding 483 - Res so far: 492475
+Number is: 421
+Number is: 189
+Adding 189 - Res so far: 492664
+Number is: 9
+Adding 9 - Res so far: 492673
+Number is: 786
+Adding 786 - Res so far: 493459
+Number is: 835
+Number is: 978
+Adding 978 - Res so far: 494437
+Number is: 445
+Adding 445 - Res so far: 494882
+Number is: 350
+Adding 350 - Res so far: 495232
+Number is: 860
+Adding 860 - Res so far: 496092
+Number is: 662
+Adding 662 - Res so far: 496754
+Number is: 354
+Adding 354 - Res so far: 497108
+Number is: 682
+Adding 682 - Res so far: 497790
+Number is: 117
+Adding 117 - Res so far: 497907
+Number is: 57
+Adding 57 - Res so far: 497964
+Number is: 441
+Adding 441 - Res so far: 498405
+Number is: 88
+Adding 88 - Res so far: 498493
+Number is: 142
+Adding 142 - Res so far: 498635
+Number is: 927
+Adding 927 - Res so far: 499562
+Number is: 402
+Adding 402 - Res so far: 499964
+Number is: 874
+Adding 874 - Res so far: 500838
+Number is: 734
+Adding 734 - Res so far: 501572
+Number is: 926
+Adding 926 - Res so far: 502498
+Number is: 633
+Adding 633 - Res so far: 503131
+Number is: 219
+Adding 219 - Res so far: 503350
+Number is: 84
+Adding 84 - Res so far: 503434
+Number is: 662
+Adding 662 - Res so far: 504096
+Number is: 205
+Adding 205 - Res so far: 504301
+Number is: 334
+Number is: 981
+Adding 981 - Res so far: 505282
+Number is: 367
+Adding 367 - Res so far: 505649
+Number is: 338
+Adding 338 - Res so far: 505987
+Number is: 332
+Adding 332 - Res so far: 506319
+Number is: 119
+Adding 119 - Res so far: 506438
+Number is: 375
+Adding 375 - Res so far: 506813
+Number is: 334
+Adding 334 - Res so far: 507147
+Number is: 146
+Adding 146 - Res so far: 507293
+Number is: 384
+Number is: 165
+Adding 165 - Res so far: 507458
+Number is: 666
+Adding 666 - Res so far: 508124
+Number is: 614
+Adding 614 - Res so far: 508738
+Number is: 744
+Adding 744 - Res so far: 509482
+Number is: 617
+Adding 617 - Res so far: 510099
+Number is: 887
+Adding 887 - Res so far: 510986
+Number is: 848
+Adding 848 - Res so far: 511834
+Number is: 203
+Adding 203 - Res so far: 512037
+Number is: 593
+Adding 593 - Res so far: 512630
+Number is: 158
+Adding 158 - Res so far: 512788
+Number is: 152
+Adding 152 - Res so far: 512940
+Number is: 817
+Adding 817 - Res so far: 513757
+Number is: 866
+Adding 866 - Res so far: 514623
+Number is: 904
+Adding 904 - Res so far: 515527
+Number is: 701
+Adding 701 - Res so far: 516228
+Number is: 165
+Adding 165 - Res so far: 516393
+Number is: 80
+Number is: 404
+Number is: 977
+Adding 977 - Res so far: 517370
+Number is: 93
+Adding 93 - Res so far: 517463
+Number is: 396
+Adding 396 - Res so far: 517859
+Number is: 281
+Adding 281 - Res so far: 518140
+Number is: 953
+Adding 953 - Res so far: 519093
+Number is: 116
+Adding 116 - Res so far: 519209
+Number is: 97
+Adding 97 - Res so far: 519306
+Number is: 70
+Adding 70 - Res so far: 519376
+Number is: 179
+Adding 179 - Res so far: 519555
+Number is: 107
+Adding 107 - Res so far: 519662
+Number is: 338
+Adding 338 - Res so far: 520000
+Number is: 622
+Adding 622 - Res so far: 520622
+Number is: 445
+Adding 445 - Res so far: 521067
+Number is: 382
+Adding 382 - Res so far: 521449
+Number is: 672
+Adding 672 - Res so far: 522121
+Number is: 859
+Adding 859 - Res so far: 522980
+Number is: 571
+Adding 571 - Res so far: 523551
+Number is: 717
+Adding 717 - Res so far: 524268
+Number is: 240
+Adding 240 - Res so far: 524508
+Number is: 175
+Adding 175 - Res so far: 524683
+Number is: 808
+Adding 808 - Res so far: 525491
+Number is: 225
+Adding 225 - Res so far: 525716
+Number is: 988
+Adding 988 - Res so far: 526704
+Number is: 604
+Adding 604 - Res so far: 527308
+Number is: 232
+Number is: 448
+Adding 448 - Res so far: 527756
+Number is: 651
+Adding 651 - Res so far: 528407
+Number is: 769
+Adding 769 - Res so far: 529176
+Number is: 569
+Adding 569 - Res so far: 529745
+Number is: 975
+Adding 975 - Res so far: 530720
+Number is: 968
+Adding 968 - Res so far: 531688
+Number is: 585
+Number is: 26
+Number is: 394
+Adding 394 - Res so far: 532082
+Number is: 142
+Number is: 498
+Adding 498 - Res so far: 532580
+Number is: 969
+Adding 969 - Res so far: 533549
+Number is: 360
+Adding 360 - Res so far: 533909
+Number is: 666
+Adding 666 - Res so far: 534575
+Number is: 919
+Adding 919 - Res so far: 535494
+Number is: 360
+Number is: 484
+Number is: 407
+Adding 407 - Res so far: 535901
+Number is: 886
+Number is: 84
+Number is: 933
+Adding 933 - Res so far: 536834
+Number is: 101
+Adding 101 - Res so far: 536935
+Number is: 58
+Adding 58 - Res so far: 536993
+Number is: 839
+Number is: 425
