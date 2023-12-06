@@ -7,7 +7,7 @@ from functools import reduce
 def part1(lines):
     times = [int(i.group()) for i in re.finditer(r'(\d+)', lines[0])]
     distances = [int(i.group()) for i in re.finditer(r'(\d+)', lines[1])]
-    counts = [ len([j for j in range(1,times[i]) if j * (times[i]-j) > distances[i]]) for i in range(len(times))]
+    counts = [times[i] - 1 - 2*int((-times[i]*-1.0 - (times[i]*times[i] -4*1.0*distances[i])**0.5)/(2*1.0)) for i in range(len(times))]
     res = reduce(lambda x,y: x*y, counts)
     return res
 
@@ -15,7 +15,6 @@ def part1(lines):
 def part2(lines):
     time = int(''.join([i.group() for i in re.finditer(r'(\d+)', lines[0])]))
     distance = int(''.join([i.group() for i in re.finditer(r'(\d+)', lines[1])]))
-
     a = 1.0
     b = -time*1.0 
     c = distance*1.0
