@@ -1,12 +1,11 @@
 from utils import timer, reader
 import re
 import sys
-from functools import reduce
 
 @timer
 def part1(lines):
     rules = [0, 12, 13, 14]
-    pattern = fr"(?<=Game\s)(\d*)|(\d*)(?=\sred)|(\d*)(?=\sgreen)|(\d*)(?=\sblue)"
+    pattern = r"(?<=Game\s)(\d*)|(\d*)(?=\sred)|(\d*)(?=\sgreen)|(\d*)(?=\sblue)"
     p_c = re.compile(pattern=pattern)   
     l_t = [list(zip(*p_c.findall(l))) for l in lines]
     sums =[[max(map(lambda x: int(x) if x.isdigit() else 0, ttt)) for ttt in tt] for tt in l_t] 
@@ -16,7 +15,7 @@ def part1(lines):
 @timer
 def part2(lines):
     rules = [0, 12, 13, 14]
-    pattern = fr"(?<=Game\s)(\d*)|(\d*)(?=\sred)|(\d*)(?=\sgreen)|(\d*)(?=\sblue)"
+    pattern = r"(?<=Game\s)(\d*)|(\d*)(?=\sred)|(\d*)(?=\sgreen)|(\d*)(?=\sblue)"
     p_c = re.compile(pattern=pattern)   
     l_t = [list(zip(*p_c.findall(l))) for l in lines]
     sums =[[max(map(lambda x: int(x) if x.isdigit() else 0, ttt)) for ttt in tt] for tt in l_t] 

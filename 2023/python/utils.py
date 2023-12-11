@@ -1,5 +1,4 @@
 import time
-import os
 
 def reader(day):
     with open('/'.join(__file__.split('/')[:-2]) + f"/inputs/{day}.txt", 'r') as f:
