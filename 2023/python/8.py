@@ -19,8 +19,17 @@ def part1(lines):
 
 @timer
 def part2(lines):
-    RESULT = 0
-    return RESULT
+    directions =  list(lines[0])
+    pattern = r'(\w{3})'
+    p_c = re.compile(pattern)
+    moves =  [p_c.findall(i) for i in lines[2:]]
+    moves = { m[0]:{'L':m[1], 'R':m[2]} for m in moves}
+    keys = [i for i in moves.keys() if i[2]=='A']
+    c=0
+    while not all('Z' in i for i in keys):
+        keys = [moves.get(key)[directions[c%len(directions)]] for key in keys]
+        c+=1
+    return c
 
 
 if __name__=='__main__':
@@ -39,7 +48,8 @@ if __name__=='__main__':
                         'DDD = (DDD, DDD)',
                         'EEE = (EEE, EEE)',
                         'GGG = (GGG, GGG)',
-                        'ZZZ = (ZZZ, ZZZ)']
+                        'ZZZ = (ZZZ, ZZZ)'
+                        ]
         part1(lines1)
         lines2 = ["LR",
                         "",
