@@ -2,10 +2,34 @@ from utils import timer, reader
 import re
 import sys
 
+
+def get_dist(a ,b, cols, lines):
+    dist = abs(a[0]-b[0]) + abs(a[1]-b[1])
+    dist += len([i for i in range(b[0], a[0]) if i in lines]) if a[0]>b[0] else len([i for i in range(a[0], b[0]) if i in lines])
+    dist += len([i for i in range(b[1], a[1]) if i in cols])if a[1]>b[1] else len([i for i in range(a[1], b[1]) if i in cols])
+    return dist
+
 @timer
 def part1(lines):
-    RESULT = 0
-    return RESULT
+    lines = [list(line) for line in lines]
+    galaxies = []
+    lines_dot, cols_not_dot = list(), set()
+    for i in range(len(lines)):
+        if '#' in lines[i]:
+            for j in range(len(lines[i])):
+                if lines[i][j] == '#':
+                    galaxies.append((i,j))
+                    cols_not_dot.add(j)
+        else:
+            lines_dot.append(i)
+    cols_dot = [i for i in range(len(lines[0])) if i not in cols_not_dot]
+    galaxies_dist = []
+
+    for i in range(len(galaxies)):
+        for j in range(i+1, len(galaxies)):
+            galaxies_dist.append(get_dist(galaxies[i], galaxies[j], cols_dot, lines_dot))
+
+    return sum(galaxies_dist)
 
 @timer
 def part2(lines):
@@ -15,6 +39,7 @@ def part2(lines):
 
 if __name__=='__main__':
     TEST = False if len(sys.argv) <2 else True
+    #TEST = True
     
     if not TEST:
         lines = reader(__file__.split('/')[-1].rstrip('.py'))
@@ -22,7 +47,7 @@ if __name__=='__main__':
         part2(lines)
     else:
         lines1 = [
-            '...#......'
+            '...#......',
             '.......#..',
             '#.........',
             '..........',
