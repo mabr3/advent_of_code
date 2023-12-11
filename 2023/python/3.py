@@ -3,7 +3,7 @@ import sys
 
 @timer
 def part1(lines):
-    matrix = [list(l) for l in lines]
+    matrix = [list(line) for line in lines]
     res = 0
     len_m = len(matrix)
     len_l = len(matrix[0])
@@ -43,13 +43,12 @@ def part1(lines):
                     res += int(''.join(matrix[i][j-c+1:j+1])) 
                 to_add=False
                 c=0
-                true_counter = 0
     return res
 
 
 @timer
 def part2(lines):
-    matrix = [list(l) for l in lines]
+    matrix = [list(line) for line in lines]
     res = 0
     len_m = len(matrix)
     len_l = len(matrix[0])
@@ -112,7 +111,6 @@ def part2(lines):
                 coords = None
                 to_add=False
                 c=0
-                true_counter = 0
     for k in g_dict:
         if len(g_dict[k])==2:
             res += g_dict[k][0]*g_dict[k][1]

@@ -3,14 +3,14 @@ import sys
 
 @timer
 def part1(lines):
-    cards = [[i.split() for i in l.split(':')[1].split(' | ')]  for l in lines]
+    cards = [[i.split() for i in line.split(':')[1].split(' | ')]  for line in lines]
     results = [int(2**(len(set(c[0]).intersection(set(c[1])))-1)) for c in cards]
     print(results)
     return sum(results)
 
 @timer
 def part2(lines):
-    cards = [[i.split() for i in l.split(':')[1].split(' | ')]  for l in lines]
+    cards = [[i.split() for i in line.split(':')[1].split(' | ')]  for line in lines]
     res=0
     card_list = [1] * len(cards)
     for i in range(len(cards)):
