@@ -5,7 +5,7 @@ from collections import Counter
 from functools import cmp_to_key
 
 def get_type(hand):
-    vals = sorted(Counter(hand).values(), reverse=True)
+    vals = sorted(Counter(hand[0]).values(), reverse=True)
     if vals[0] in [4,5]:
         return vals[0]+2
     elif vals[0] == 3:
@@ -17,8 +17,6 @@ def get_type(hand):
 
 
 def custom_ordering(x, y): 
-    x_type, y_type = get_type(x[0]), get_type(y[0])
-
     dict_vals = {str(i):i for i in range(1,10)}
     dict_vals = {**dict_vals,
                  'T':10,
@@ -26,23 +24,26 @@ def custom_ordering(x, y):
                  'Q':12,
                  'K':13,
                  'A':14}
-    if x_type>y_type:
-        return 1
-    elif x_type < y_type:
-        return -1
-    else:
-        for xx,yy in list(zip(x[0],y[0])):
-            if dict_vals.get(xx)>dict_vals.get(yy):
-                return 1
-            elif dict_vals.get(xx)<dict_vals.get(yy):
-                return -1
-            else:
-                pass
+    for k in range(2):
+        if x[2][k] > y[2][k]:
+            return 1
+        elif x[2][k] < y[2][k]:
+            return -1
+        else:
+            pass
+
+    for xx,yy in list(zip(x[0],y[0])):
+        if dict_vals.get(xx)>dict_vals.get(yy):
+            return 1
+        elif dict_vals.get(xx)<dict_vals.get(yy):
+            return -1
+        else:
+            pass
     return 1
 
 def get_type_2(hand):
-    nr_j = hand.count('J')
-    vals = sorted(Counter(hand.replace('J','')).values(), reverse=True)
+    nr_j = hand[0].count('J')
+    vals = sorted(Counter(hand[0].replace('J','')).values(), reverse=True)
     if not vals: 
         vals, nr_j = [nr_j], 0
 
@@ -57,7 +58,6 @@ def get_type_2(hand):
 
 
 def custom_ordering_2(x, y): 
-    x_type, y_type = get_type_2(x[0]), get_type_2(y[0])
     dict_vals = {str(i):i for i in range(1,10)}
     dict_vals = {**dict_vals,
                  'T':10,
@@ -65,9 +65,9 @@ def custom_ordering_2(x, y):
                  'Q':12,
                  'K':13,
                  'A':14}
-    if x_type>y_type:
+    if x[2]>y[2]:
         return 1
-    elif x_type < y_type:
+    elif x[2] < y[2]:
         return -1
     else:
         for xx,yy in list(zip(x[0],y[0])):
@@ -84,6 +84,7 @@ def part1(lines):
     pattern = r'(\w+)\s(\w+)'
     p_c = re.compile(pattern)
     hands = [re.match(p_c, l).groups() for l in lines]
+    hands = [(h[0], h[1], sorted(Counter(h[0]).values(), reverse=True)) for h in hands]
     sorted_hands = sorted(hands, key=cmp_to_key(custom_ordering))
     RESULT = sum([int(sorted_hands[i][1])*(i+1) for i in range(len(sorted_hands))])
     return RESULT
@@ -93,6 +94,7 @@ def part2(lines):
     pattern = r'(\w+)\s(\w+)'
     p_c = re.compile(pattern)
     hands = [re.match(p_c, l).groups() for l in lines]
+    hands = [(h[0], h[1], get_type_2(h)) for h in hands]
     sorted_hands = sorted(hands, key=cmp_to_key(custom_ordering_2))
     RESULT = sum([int(sorted_hands[i][1])*(i+1) for i in range(len(sorted_hands))])
     return RESULT
