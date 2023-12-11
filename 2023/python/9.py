@@ -17,9 +17,16 @@ def part1(lines):
 
 @timer
 def part2(lines):
-    
-    RESULT = 0
-    return RESULT
+    lines = [list(map(int,line.split())) for line in lines ]
+    def get_diff(line):
+        new_line = [line[i+1]-line[i] for i in range(len(line)-1)]
+        if all(j==0 for j in new_line):
+            return 0
+        else:
+            return new_line[0] - get_diff(new_line)
+
+    vals = [line[0] - get_diff(line) for line in lines]
+    return sum(vals)
 
 
 if __name__=='__main__':
@@ -35,5 +42,5 @@ if __name__=='__main__':
             '1 3 6 10 15 21',
             '10 13 16 21 30 45']
         part1(lines1)
-        lines2 = ["test2"]
+        lines2 = lines1
         part2(lines2)
