@@ -83,7 +83,7 @@ def custom_ordering_2(x, y):
 def part1(lines):
     pattern = r'(\w+)\s(\w+)'
     p_c = re.compile(pattern)
-    hands = [re.match(p_c, l).groups() for l in lines]
+    hands = [re.match(p_c, line).groups() for line in lines]
     sorted_hands = sorted(hands, key=cmp_to_key(custom_ordering))
     RESULT = sum([int(sorted_hands[i][1])*(i+1) for i in range(len(sorted_hands))])
     return RESULT
@@ -92,7 +92,7 @@ def part1(lines):
 def part2(lines):
     pattern = r'(\w+)\s(\w+)'
     p_c = re.compile(pattern)
-    hands = [re.match(p_c, l).groups() for l in lines]
+    hands = [re.match(p_c, line).groups() for line in lines]
     sorted_hands = sorted(hands, key=cmp_to_key(custom_ordering_2))
     RESULT = sum([int(sorted_hands[i][1])*(i+1) for i in range(len(sorted_hands))])
     return RESULT

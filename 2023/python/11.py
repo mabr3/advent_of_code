@@ -1,5 +1,4 @@
 from utils import timer, reader
-import re
 import sys
 
 

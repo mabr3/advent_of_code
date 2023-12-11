@@ -6,7 +6,7 @@ import sys
 def part1(lines):
     pattern = r'\d{1}'
     p_c = re.compile(pattern=pattern)
-    vals = [ int(p_c.findall(l)[0]) *10 + int(p_c.findall(l)[-1]) for l in lines]
+    vals = [ int(p_c.findall(line)[0]) *10 + int(p_c.findall(line)[-1]) for line in lines]
     return sum(vals)
 
 @timer
@@ -39,7 +39,7 @@ def part2(lines):
             '9':9
         }
     
-    vals = [ numbers.get(p_c.findall(l)[0])*10 + numbers.get(p_c.findall(l)[-1]) for l in lines]
+    vals = [ numbers.get(p_c.findall(line)[0])*10 + numbers.get(p_c.findall(line)[-1]) for line in lines]
 
     return sum(vals)
 

@@ -1,5 +1,4 @@
 from utils import get_lines
-import re
 
 lines = get_lines(2022, 7)
 dir_sizes = []

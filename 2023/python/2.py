@@ -1,24 +1,22 @@
 from utils import timer, reader
 import re
 import sys
-from functools import reduce
 
 @timer
 def part1(lines):
     rules = [0, 12, 13, 14]
-    pattern = fr"(?<=Game\s)(\d*)|(\d*)(?=\sred)|(\d*)(?=\sgreen)|(\d*)(?=\sblue)"
+    pattern = r"(?<=Game\s)(\d*)|(\d*)(?=\sred)|(\d*)(?=\sgreen)|(\d*)(?=\sblue)"
     p_c = re.compile(pattern=pattern)   
-    l_t = [list(zip(*p_c.findall(l))) for l in lines]
+    l_t = [list(zip(*p_c.findall(line))) for line in lines]
     sums =[[max(map(lambda x: int(x) if x.isdigit() else 0, ttt)) for ttt in tt] for tt in l_t] 
     res = sum(list(map(lambda x: x[0] if x[1]<=rules[1] and x[2]<=rules[2] and x[3]<=rules[3] else 0, sums)))
     return res
 
 @timer
 def part2(lines):
-    rules = [0, 12, 13, 14]
-    pattern = fr"(?<=Game\s)(\d*)|(\d*)(?=\sred)|(\d*)(?=\sgreen)|(\d*)(?=\sblue)"
+    pattern = r"(?<=Game\s)(\d*)|(\d*)(?=\sred)|(\d*)(?=\sgreen)|(\d*)(?=\sblue)"
     p_c = re.compile(pattern=pattern)   
-    l_t = [list(zip(*p_c.findall(l))) for l in lines]
+    l_t = [list(zip(*p_c.findall(line))) for line in lines]
     sums =[[max(map(lambda x: int(x) if x.isdigit() else 0, ttt)) for ttt in tt] for tt in l_t] 
     res = sum(list(map(lambda x: x[1]*x[2]*x[3], sums))) 
     return res
