@@ -1,6 +1,7 @@
 from utils import timer, reader
 import re
 import sys
+from math import lcm
 
 @timer
 def part1(lines):
@@ -25,11 +26,19 @@ def part2(lines):
     moves =  [p_c.findall(i) for i in lines[2:]]
     moves = { m[0]:{'L':m[1], 'R':m[2]} for m in moves}
     keys = [i for i in moves.keys() if i[2]=='A']
-    c=0
-    while not all('Z' in i for i in keys):
-        keys = [moves.get(key)[directions[c%len(directions)]] for key in keys]
-        c+=1
-    return c
+    l_k = len(keys)
+    counter=0
+    z_found = []
+    while len(z_found)!= l_k:
+        keys = [moves.get(key)[directions[counter%len(directions)]] for key in keys]
+        counter+=1
+        if any(i[2]=='Z' for i in keys):
+            for r in range(len(keys)-1, -1,-1):
+                if keys[r][2] == 'Z':
+                    z_found.append(counter)
+                    del(keys[r])
+
+    return lcm(*z_found) 
 
 
 if __name__=='__main__':
