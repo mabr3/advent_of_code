@@ -5,7 +5,6 @@ import sys
 def part1(lines):
     cards = [[i.split() for i in line.split(':')[1].split(' | ')]  for line in lines]
     results = [int(2**(len(set(c[0]).intersection(set(c[1])))-1)) for c in cards]
-    print(results)
     return sum(results)
 
 @timer

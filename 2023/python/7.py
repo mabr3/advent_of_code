@@ -84,6 +84,7 @@ def part1(lines):
     pattern = r'(\w+)\s(\w+)'
     p_c = re.compile(pattern)
     hands = [re.match(p_c, line).groups() for line in lines]
+    hands = [(h[0], h[1], sorted(Counter(h[0]).values(), reverse=True)) for h in hands]
     sorted_hands = sorted(hands, key=cmp_to_key(custom_ordering))
     RESULT = sum([int(sorted_hands[i][1])*(i+1) for i in range(len(sorted_hands))])
     return RESULT
@@ -93,6 +94,7 @@ def part2(lines):
     pattern = r'(\w+)\s(\w+)'
     p_c = re.compile(pattern)
     hands = [re.match(p_c, line).groups() for line in lines]
+    hands = [(h[0], h[1], get_type_2(h)) for h in hands]
     sorted_hands = sorted(hands, key=cmp_to_key(custom_ordering_2))
     RESULT = sum([int(sorted_hands[i][1])*(i+1) for i in range(len(sorted_hands))])
     return RESULT
