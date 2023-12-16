@@ -9,13 +9,12 @@ class Node:
         self.line = coords[0]
         self.col = coords[1]
         self.type = type
-        print(self.__str__())
 
     def __str__(self) -> str:
         return f"I'm at ({self.line}, {self.col}), my distance is {self.distance}, my type is {self.type}"
 
 
-def path(lines, node, origin):
+def get_neighbours(lines, matrix, node):
     directions = {
         "|": ["u", "d"],
         "-": ["l", "r"],
@@ -23,7 +22,7 @@ def path(lines, node, origin):
         "L": ["u", "r"],
         "J": ["u", "l"],
         "7": ["d", "l"],
-        ".": None,
+        ".": [],
     }
     letter_mappings = {
         # each letter mapping has the offset for line, offset for col, and the origin
@@ -34,73 +33,107 @@ def path(lines, node, origin):
         "r": (0, 1, "l"),
     }
     direction = directions.get(node.type)
-    if not direction:
-        return node.distance
-    else:
-        if origin == "":
-            # this is the start node, need to go through both neighbours.
-            direction = directions.get(node.type)
-            moves = [letter_mappings.get(d) for d in direction]
-            coords = [(node.line + move[0], node.col + move[1]) for move in moves]
-            types = [
-                lines[coords[0][0]][coords[0][1]],
-                lines[coords[1][0]][coords[1][1]],
-            ]
-            print(coords)
-            print(types)
-            return max(
-                path(lines, Node(coords[0], node.distance + 1, types[0]), moves[0][2]),
-                path(
-                    lines,
-                    Node(coords[1], node.distance + 1, types[1]),
-                    moves[1][2],
-                ),
+    nodes = []
+    for dir in direction:
+        offset = letter_mappings.get(dir)
+        new_cords = (node.line + offset[0], node.col + offset[1])
+        if matrix[new_cords[0]][new_cords[1]] == 0:
+            nodes.append(
+                Node(new_cords, node.distance + 1, lines[new_cords[0]][new_cords[1]])
             )
-        else:
-            print(f"{node.type}")
-            print(f"{directions.get(node.type)}")
 
-            direction = directions.get(node.type)
-            direction.remove(origin)
-            # Only need to go either up, down, left, or right depending on the added direction
-            print(direction)
-            move = letter_mappings.get(direction[0])
-            print(move)
-            coords = (node.line + move[0], node.col + move[1])
-            neighbour = Node(coords, node.distance + 1, lines[coords[0]][coords[1]])
-            return max(node.distance, path(lines, neighbour, move[2]))
+    matrix[node.line][node.col] = 1 if matrix[node.line][node.col] != '.' else 2
 
-    return
+    return nodes
+
+
+def get_initial_pipe(lines, coords):
+    directions_mappings = {
+        ("d", "u"): "|",
+        ("l", "r"): "-",
+        ("d", "r"): "F",
+        ("r", "u"): "L",
+        ("l", "u"): "J",
+        ("d", "l"): "7",
+    }
+    directions = {
+        "|": ["d", "u"],
+        "-": ["l", "r"],
+        "F": ["d", "r"],
+        "L": ["r", "u"],
+        "J": ["l", "u"],
+        "7": ["d", "l"],
+        ".": [],
+    }
+    left = directions.get(lines[coords[0]][coords[1] - 1]) if coords[1] != 0 else None
+    right = (
+        directions.get(lines[coords[0]][coords[1] + 1])
+        if coords[1] != len(lines[0])
+        else None
+    )
+    up = directions.get(lines[coords[0] - 1][coords[1]]) if coords[0] != 0 else None
+    down = (
+        directions.get(lines[coords[0] + 1][coords[1]])
+        if coords[0] != len(lines)
+        else None
+    )
+    s_directions = []
+    if left and "r" in left:
+        s_directions.append("l")
+    if down and "u" in down:
+        s_directions.append("d")
+    if right and "l" in right:
+        s_directions.append("r")
+    if up and "d" in up:
+        s_directions.append("u")
+    return directions_mappings.get(tuple(sorted(s_directions)))
 
 
 @timer
 def part1(lines):
-    # neighbord depend on shape
-    # if F then right and down
-    # if - then left and right
-    # if | then up and down
-    # if L then up and right
-    # if 7 then left and down
-    # if J then left and up
-    # if . -> who cares
-
     lines = [list(line) for line in lines]
+    nodes = []
+    matrix = [[0] * len(lines[0]) for i in range(len(lines))]
     for line in range(len(lines)):
         for col in range(len(lines[line])):
             if lines[line][col] == "S":
-                s_node = Node((line, col), 0, "F")
+                s_node = Node((line, col), 0, get_initial_pipe(lines, (line, col)))
+                nodes.append(s_node)
                 break
+    distance_tracker = 0
+    while nodes:
+        node = nodes.pop(0)
+        new_nodes = get_neighbours(lines, matrix, node)
+        if new_nodes:
+            distance_tracker = max(distance_tracker, *[i.distance for i in new_nodes])
+            nodes.extend(new_nodes)
 
-    print(s_node)
-    # Go through the rest of the path a return max dist (DFS)
-    RESULT = path(lines, s_node, "")
-    return RESULT
+    return distance_tracker
 
 
 @timer
 def part2(lines):
-    RESULT = 0
-    return RESULT
+    lines = [list(line) for line in lines]
+    nodes = []
+    matrix = [[0] * len(lines[0]) for i in range(len(lines))]
+    for line in range(len(lines)):
+        for col in range(len(lines[line])):
+            if lines[line][col] == "S":
+                s_node = Node((line, col), 0, get_initial_pipe(lines, (line, col)))
+                nodes.append(s_node)
+                break
+    
+    while nodes:
+        node = nodes.pop(0)
+        new_nodes = get_neighbours(lines, matrix, node)
+        if new_nodes:
+            nodes.extend(new_nodes)
+
+    for i in range(1, len(matrix)):
+        for j in range(1, len(i)):
+            if matrix[i][j] == 0:
+                
+    return 0
 
 
 if __name__ == "__main__":
@@ -113,5 +146,7 @@ if __name__ == "__main__":
     else:
         lines1 = [".....", ".S-7.", ".|.|.", ".L-J.", "....."]
         part1(lines1)
-        lines2 = ["test2"]
+        lines1_2 = ["..F7.", ".FJ|.", "SJ.L7", "|F--J", "LJ..."]
+        part1(lines1_2) 
+        lines2 = lines1
         part2(lines2)
