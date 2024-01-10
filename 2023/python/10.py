@@ -1,5 +1,8 @@
 from utils import timer, reader
 import sys
+from functools import cmp_to_key
+from math import sqrt, atan2, pi
+
 
 
 class Node:
@@ -89,6 +92,38 @@ def get_initial_pipe(lines, coords):
     return directions_mappings.get(tuple(sorted(s_directions)))
 
 
+def order_vertices(vertices: list)->list:
+    print(vertices)
+    mean_coords = (int(sum(i[0] for i in vertices)/len(vertices)), 
+                  int(sum(i[1] for i in vertices)/len(vertices)))    
+    print(mean_coords)
+    vertices = [(v[0] - mean_coords[0],v[1] - mean_coords[1]) for v in vertices]
+
+    def get_angle(x):
+        angle = atan2(x[1],x[0])
+        if angle <= 0:
+            angle = 2 * pi + angle
+        return angle
+
+    def get_distance(x):
+        return sqrt(x[0]*x[0] + x[1]*x[1])
+
+    def sorting_func(x, y):
+        angle_x, angle_y = get_angle(x), get_angle(y)
+        if angle_x > angle_y:
+            return  1
+        elif angle_x < angle_y:
+            return -1
+        else:
+            # since the centre point should b 0, no need to add it here in the calculus for euclidean dist
+            return 1 if get_distance(x) <= get_distance(y) else -1
+    
+    vertices = sorted(vertices, key=cmp_to_key(sorting_func))
+    vertices = [(v[0] + mean_coords[0],v[1] + mean_coords[1]) for v in vertices]
+    print(vertices)
+    return vertices
+
+
 @timer
 def part1(lines):
     lines = [list(line) for line in lines]
@@ -114,27 +149,58 @@ def part1(lines):
 @timer
 def part2(lines):
     lines = [list(line) for line in lines]
-    nodes = []
+    nodes = set()
     matrix = [[0] * len(lines[0]) for i in range(len(lines))]
     for line in range(len(lines)):
         for col in range(len(lines[line])):
             if lines[line][col] == "S":
                 s_node = Node((line, col), 0, get_initial_pipe(lines, (line, col)))
-                nodes.append(s_node)
+                nodes.add(s_node)
                 break
-    
+    vertices = set()
     while nodes:
-        node = nodes.pop(0)
+        node = nodes.pop()
+        vertices.add((node.line, node.col))
         new_nodes = get_neighbours(lines, matrix, node)
         if new_nodes:
-            nodes.extend(new_nodes)
+            nodes.update(new_nodes)
 
-    for i in range(1, len(matrix)):
-        for j in range(1, len(i)):
-            if matrix[i][j] == 0:
-                
-    return 0
+    # Having the vertices, calculate the are useing the shoelace formula
+    # This has to be done either counter-clockwise or clockwise and then abs()
 
+    #vertices = order_vertices(vertices)
+    # Shoelace formula
+     # A = 1/2 * sum(xi * yi+1 - yi * xi+1)
+    mean_coords = (int(sum(i[0] for i in vertices)/len(vertices)), 
+                  int(sum(i[1] for i in vertices)/len(vertices)))    
+    vertices = rotational_sort(list(vertices), mean_coords, False)
+    
+    area = 0.5 * sum([vertices[i][0]*vertices[i+1][1]*1.0 - 1.0*vertices[i+1][0]*vertices[i][1] for i in range(len(vertices)-1)],
+                     vertices[-1][0]*vertices[0][1] - vertices[0][0]*vertices[-1][1])
+    print(f"AREA -> {area}")
+    # Pick's theorem
+    # A = i + points/2 - 1    i - interior points
+    # i = A - points/2 + 1
+    result = area - len(vertices)/2.0 + 1.0
+    return round(result)
+
+from math import atan2
+
+def argsort(seq):
+    #http://stackoverflow.com/questions/3382352/equivalent-of-numpy-argsort-in-basic-python/3382369#3382369
+    #by unutbu
+    #https://stackoverflow.com/questions/3382352/equivalent-of-numpy-argsort-in-basic-python 
+    # from Boris Gorelik
+    return sorted(range(len(seq)), key=seq.__getitem__)
+
+def rotational_sort(list_of_xy_coords, centre_of_rotation_xy_coord, clockwise=True):
+    cx,cy=centre_of_rotation_xy_coord
+    angles = [atan2(x-cx, y-cy) for x,y in list_of_xy_coords]
+    indices = argsort(angles)
+    if clockwise:
+        return [list_of_xy_coords[i] for i in indices]
+    else:
+        return [list_of_xy_coords[i] for i in indices[::-1]]
 
 if __name__ == "__main__":
     TEST = False if len(sys.argv) < 2 else True
@@ -148,5 +214,16 @@ if __name__ == "__main__":
         part1(lines1)
         lines1_2 = ["..F7.", ".FJ|.", "SJ.L7", "|F--J", "LJ..."]
         part1(lines1_2) 
-        lines2 = lines1
+        lines2 = [
+            "...........",
+            ".S-------7.",
+            ".|F-----7|.",
+            ".||.....||.",
+            ".||.....||.",
+            ".|L-7.F-J|.",
+            ".|..|.|..|.",
+            ".L--J.L--J.",
+            "..........."]
+        part2(lines1)
+        part2(lines1_2)
         part2(lines2)
