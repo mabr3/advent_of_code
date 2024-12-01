@@ -2,7 +2,7 @@
 name = "advent-of-code"
 version = "0.1.0"
 description = "Env for AoC"
-authors = ["miguel.brogueira <miguel.brogueira@olx.com>"]
+authors = ["mabr3 <mbrogueirarodrigues@gmail.com>"]
 readme = "README.md"
 packages = [{include = "advent_of_code"}]
 
@@ -11,8 +11,14 @@ python = "^3.11"
 inflect = "^7.0.0"
 black = "^23.11.0"
 ruff = "^0.1.7"
+matplotlib = "^3.8.2"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+exclude = [
+".md"
+]

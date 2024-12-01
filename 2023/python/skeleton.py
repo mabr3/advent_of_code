@@ -18,7 +18,7 @@ if __name__ == '__main__':
     TEST = False if len(sys.argv) < 2 else True
 
     if not TEST:
-        lines = reader(__file__.split('/')[-1].rstrip('.py'))
+        lines = reader(__file__.split("/")[-1].rstrip(".py"))
         part1(lines)
         part2(lines)
     else:
