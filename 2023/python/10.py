@@ -94,8 +94,8 @@ def get_initial_pipe(lines, coords):
 
 def order_vertices(vertices: list)->list:
     print(vertices)
-    mean_coords = (int(sum(i[0] for i in vertices)/len(vertices)), 
-                  int(sum(i[1] for i in vertices)/len(vertices)))    
+    mean_coords = (int(sum(i[0] for i in vertices)/len(vertices)),
+                  int(sum(i[1] for i in vertices)/len(vertices)))
     print(mean_coords)
     vertices = [(v[0] - mean_coords[0],v[1] - mean_coords[1]) for v in vertices]
 
@@ -117,7 +117,7 @@ def order_vertices(vertices: list)->list:
         else:
             # since the centre point should b 0, no need to add it here in the calculus for euclidean dist
             return 1 if get_distance(x) <= get_distance(y) else -1
-    
+
     vertices = sorted(vertices, key=cmp_to_key(sorting_func))
     vertices = [(v[0] + mean_coords[0],v[1] + mean_coords[1]) for v in vertices]
     print(vertices)
@@ -171,10 +171,10 @@ def part2(lines):
     #vertices = order_vertices(vertices)
     # Shoelace formula
      # A = 1/2 * sum(xi * yi+1 - yi * xi+1)
-    mean_coords = (int(sum(i[0] for i in vertices)/len(vertices)), 
-                  int(sum(i[1] for i in vertices)/len(vertices)))    
+    mean_coords = (int(sum(i[0] for i in vertices)/len(vertices)),
+                  int(sum(i[1] for i in vertices)/len(vertices)))
     vertices = rotational_sort(list(vertices), mean_coords, False)
-    
+
     area = 0.5 * sum([vertices[i][0]*vertices[i+1][1]*1.0 - 1.0*vertices[i+1][0]*vertices[i][1] for i in range(len(vertices)-1)],
                      vertices[-1][0]*vertices[0][1] - vertices[0][0]*vertices[-1][1])
     print(f"AREA -> {area}")
@@ -184,12 +184,11 @@ def part2(lines):
     result = area - len(vertices)/2.0 + 1.0
     return round(result)
 
-from math import atan2
 
 def argsort(seq):
     #http://stackoverflow.com/questions/3382352/equivalent-of-numpy-argsort-in-basic-python/3382369#3382369
     #by unutbu
-    #https://stackoverflow.com/questions/3382352/equivalent-of-numpy-argsort-in-basic-python 
+    #https://stackoverflow.com/questions/3382352/equivalent-of-numpy-argsort-in-basic-python
     # from Boris Gorelik
     return sorted(range(len(seq)), key=seq.__getitem__)
 
@@ -213,7 +212,7 @@ if __name__ == "__main__":
         lines1 = [".....", ".S-7.", ".|.|.", ".L-J.", "....."]
         part1(lines1)
         lines1_2 = ["..F7.", ".FJ|.", "SJ.L7", "|F--J", "LJ..."]
-        part1(lines1_2) 
+        part1(lines1_2)
         lines2 = [
             "...........",
             ".S-------7.",
