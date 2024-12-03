@@ -21,7 +21,8 @@ def part1(lines):
     return RESULT
 
 
-def check_conditions(level, dir):
+def check_conditions(level):
+    dir = level[0] > level[1]
     for r in range(1, len(level)):
         diff = abs(level[r - 1] - level[r])
         dir_diff = (level[r - 1] > level[r]) == dir
@@ -37,19 +38,18 @@ def part2(lines):
     for line in lines:
         levels.append([int(i) for i in line.split()])
     for level in levels:
-        print(f"level: {level}")
-        dampener = 0
-        dir = level[0] > level[1]
-        ind = 0
-        while True:
-            ind = check_conditions(level[:ind] + level[ind:], dir)
-            if ind == -1:
-                RESULT += 1
-                break
-            elif dampener:
-                break
-            else:
-                dampener = True
+        # check if the level passes the test.
+        res = check_conditions(level)
+        # if it doesn't, check if it passes by removing r
+        if (
+            res != -1
+            and check_conditions(level[:res] + level[res+1:]) != -1
+            and check_conditions(level[: res - 1] + level[res:]) != -1
+        ):
+            continue
+        # if it doesn't, check if it passes by removing r-1 instead
+        else:
+            RESULT += 1
 
     return RESULT
 
