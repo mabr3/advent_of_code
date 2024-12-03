@@ -43,7 +43,7 @@ def part2(lines):
         # if it doesn't, check if it passes by removing r
         if (
             res != -1
-            and check_conditions(level[:res] + level[res+1:]) != -1
+            and check_conditions(level[:res] + level[res + 1 :]) != -1
             and check_conditions(level[: res - 1] + level[res:]) != -1
         ):
             continue
