@@ -8,10 +8,8 @@ def check(word: str) -> int:
 
 def construct_word(m, i, j, dir):
     w = []
-
     for r in range(4):
         w.append(m[i + r * dir[0]][j + r * dir[1]])
-
     return "".join(w)
 
 
@@ -65,7 +63,17 @@ def part1(lines):
 
 @timer
 def part2(lines):
+    m = [list(line) for line in lines]
+    length, width = len(lines), len(lines[0])
     RESULT = 0
+    for i in range(1, length - 1):
+        for j in range(1, width - 1):
+            # it always starts with X
+            if m[i][j] == "A":
+                if set((m[i - 1][j - 1], m[i + 1][j + 1])) == set(("M", "S")) and \
+                    set((m[i - 1][j + 1], m[i + 1][j - 1])) == set(("M", "S")):
+                    RESULT += 1
+
     return RESULT
 
 
@@ -90,5 +98,5 @@ if __name__ == "__main__":
             "MXMXAXMASX",
         ]
         part1(lines1)
-        lines2 = ["test2"]
+        lines2 = lines1
         part2(lines2)
