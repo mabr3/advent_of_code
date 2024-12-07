@@ -20,7 +20,7 @@ def part2(lines):
     flag = True
     for line in lines:
         vals = re.findall(pattern, line)
-        for v1,v2,v3,v4 in vals:
+        for v1, v2, v3, v4 in vals:
             if v1 or v2:
                 flag = bool(v2)
             else:
