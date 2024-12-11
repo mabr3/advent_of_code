@@ -70,8 +70,9 @@ def part2(lines):
         for j in range(1, width - 1):
             # it always starts with X
             if m[i][j] == "A":
-                if set((m[i - 1][j - 1], m[i + 1][j + 1])) == set(("M", "S")) and \
-                    set((m[i - 1][j + 1], m[i + 1][j - 1])) == set(("M", "S")):
+                if set((m[i - 1][j - 1], m[i + 1][j + 1])) == set(("M", "S")) and set(
+                    (m[i - 1][j + 1], m[i + 1][j - 1])
+                ) == set(("M", "S")):
                     RESULT += 1
 
     return RESULT
