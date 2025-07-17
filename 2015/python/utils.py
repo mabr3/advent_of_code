@@ -1,10 +1,10 @@
 import time
 
 
-def reader(day):
+def reader(day: str):
     with open(
-            '/'.join(__file__.split('/')[:-2]) + f"/inputs/{day}.txt",
-            'r') as f:
+        '/'.join(__file__.split('/')[:-2]) + f"/inputs/{day}.txt",
+        'r') as f:
         lines = [i.rstrip('\n') for i in f.readlines()]
     return lines
 
@@ -16,5 +16,5 @@ def timer(func):
         time_elapsed = time.time()-start_time
         print(f"{func.__name__} took {time_elapsed*1000} milliseconds")
         print(f"Result for {func.__name__} is {res}")
-    # TODO write to CSV or to README in md table -- col lang, row day, part
+    # TODO: write to CSV or to README in md table -- col lang, row day, part
     return inner

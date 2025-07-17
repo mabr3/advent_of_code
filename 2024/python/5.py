@@ -2,6 +2,7 @@ from utils import timer, reader
 import sys
 from functools import cmp_to_key
 
+
 @timer
 def _part1(lines):
     RESULT = 0
@@ -47,13 +48,17 @@ def part1(lines):
         if "," in line:
             updates.append(line.split(","))
 
+    def comparer(a, b):
+        return -1 if [a, b] in dependencies else 1
 
-    def comparer(a,b):
-        return -1 if [a,b] in dependencies else 1
-
-    valid_updates = [u for u in updates if sorted(u, key=cmp_to_key(lambda a,b: -([a,b] in dependencies))) == u]
-    RESULT = sum([int(u[int(len(u)/2)]) for u in valid_updates])
+    valid_updates = [
+        u
+        for u in updates
+        if sorted(u, key=cmp_to_key(lambda a, b: -([a, b] in dependencies))) == u
+    ]
+    RESULT = sum([int(u[int(len(u) / 2)]) for u in valid_updates])
     return RESULT
+
 
 @timer
 def part2(lines):
@@ -66,26 +71,34 @@ def part2(lines):
         if "," in line:
             updates.append(line.split(","))
 
-    def comparer(a,b):
-        return -1 if a+'|'+b in dependencies else 1
+    def comparer(a, b):
+        return -1 if a + "|" + b in dependencies else 1
 
-
-    valid_updates = [u for u in updates if not \
-        sorted(u, key=cmp_to_key(lambda a,b: -(a+'|'+b in dependencies))) == u]
+    valid_updates = [
+        u
+        for u in updates
+        if not sorted(u, key=cmp_to_key(lambda a, b: -(a + "|" + b in dependencies)))
+        == u
+    ]
     valid_updates = [sorted(u, key=cmp_to_key(comparer)) for u in valid_updates]
-    RESULT = sum([int(u[int(len(u)/2)]) for u in valid_updates])
+    RESULT = sum([int(u[int(len(u) / 2)]) for u in valid_updates])
     return RESULT
+
 
 @timer
 def xx(lines):
-    rules, pages = open("/Users/mike/Desktop/advent_of_code/2024/inputs/5.txt").read().split('\n\n')
-    cmp = cmp_to_key(lambda x, y: -(x+'|'+y in rules))
+    rules, pages = (
+        open("/Users/mike/Desktop/advent_of_code/2024/inputs/5.txt")
+        .read()
+        .split("\n\n")
+    )
+    cmp = cmp_to_key(lambda x, y: -(x + "|" + y in rules))
 
     a = [0, 0]
     for p in pages.split():
-        p = p.split(',')
+        p = p.split(",")
         s = sorted(p, key=cmp)
-        a[p!=s] += int(s[len(s)//2])
+        a[p != s] += int(s[len(s) // 2])
 
     print(*a)
 

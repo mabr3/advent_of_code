@@ -1,18 +1,19 @@
 from utils import timer, reader
 import sys
 
+
 @timer
 def part1(lines):
     RESULT = 0
     entries = {}
     for line in lines:
-        line_split = line.split(': ')
+        line_split = line.split(": ")
         print(line_split)
-        entries[int(line_split[0])] = [int(i) for i in line_split[1].split( )]
+        entries[int(line_split[0])] = [int(i) for i in line_split[1].split()]
 
-    for k, v in entries:
-        print(k)
-        print(v)
+    for entry in entries:
+        print(entry)
+        print(entries[entry])
     print(entries)
 
     return RESULT
