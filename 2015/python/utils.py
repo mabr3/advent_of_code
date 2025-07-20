@@ -14,7 +14,7 @@ def timer(func):
         start_time = time.time()
         res = func(args, *kwargs)
         time_elapsed = time.time()-start_time
-        print(f"{func.__name__} took {time_elapsed*1000} milliseconds")
+        print(f"{func.__name__} took {time_elapsed*1000.0} milliseconds")
         print(f"Result for {func.__name__} is {res}")
     # TODO: write to CSV or to README in md table -- col lang, row day, part
     return inner

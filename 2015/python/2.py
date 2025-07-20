@@ -1,13 +1,14 @@
-from utils import timer, reader
 import sys
+
+from utils import reader, timer
 
 
 @timer
 def part1(lines):
     total = 0
     for line in lines:
-        l, w, h = [int(v) for v in line.split('x')]
-        sides = [l * w,   w * h,  h * l]
+        length, width, height = [int(v) for v in line.split('x')]
+        sides = [length * width,   width * height,  height * length]
         total += 2*sum(sides) + min(sides)
 
     # 2*l*w + 2*w*h + 2*h*l
@@ -18,10 +19,9 @@ def part1(lines):
 def part2(lines):
     total = 0
     for line in lines:
-        l, w, h = [int(v) for v in line.split('x')]
-        sides = sorted([l, w, h])
-        total += 2*sum(sides[:2]) + l*w*h
-
+        length, width, height = [int(v) for v in line.split('x')]
+        sides = sorted([length, width, height ])
+        total += 2*sum(sides[:2]) + length * width * height
     return total
 
 
