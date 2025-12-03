@@ -1,7 +1,8 @@
 use std::env;
-
 use std::fs;
-pub fn build_path(path: &str) -> String {
+use std::time::Instant;
+
+fn build_path(path: &str) -> String {
     // TODO: there should be a way to get input location from the args
     // HACK: Also, this looks like a hacky way to do this!
     let path_split: Vec<&str> = path.split('/').collect();
@@ -35,6 +36,42 @@ pub fn splitter<T: std::str::FromStr>(contents: &str, separator: char) -> Vec<Ve
     splits
 }
 
+pub fn tester(name: &str, f: fn(&str) -> i32, arg: &str, tries: usize) {
+    let mut results: [(i32, f32); 10] = [(0, 0.0); 10];
+
+    for i in 0..tries {
+        let start = Instant::now();
+        let r = f(arg);
+        let time = Instant::now() - start;
+        results[i] = (r, time.as_secs_f32());
+    }
+
+    let equal_results: bool = results.iter().all(|(c, _)| *c == results[0].0);
+    if !equal_results {
+        println!("Results aren't equal: {:?}", results.iter().map(|(c, _)| c))
+    }
+    let min_t = results
+        .iter()
+        .map(|(_, t)| *t)
+        .into_iter()
+        .reduce(f32::min)
+        .unwrap_or(0.);
+    let max_t: f32 = results
+        .iter()
+        .map(|(_, t)| *t)
+        .reduce(f32::max)
+        .unwrap_or(0.);
+    let avg_t: f32 = results.iter().map(|(_, t)| t).sum::<f32>() / tries as f32;
+    println!(
+        "{:^15} {:^15} {:^15} {:^15} {:^15}",
+        "Part", "Result", "Min", "Max", "Avg"
+    );
+    println!(
+        "{:^15} {:^15} {:^15} {:^15} {:^15}",
+        name, results[0].0, min_t, max_t, avg_t
+    );
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -47,6 +84,7 @@ mod tests {
             build_path(fullpath)
         );
     }
+
     #[test]
     fn test_spliiter_1() {
         let input = "1x2x3";
@@ -54,10 +92,11 @@ mod tests {
         let separator = 'x';
         assert_eq!(splitter::<i32>(input, separator), expected);
     }
+
     #[test]
     fn test_spliiter_2() {
-        let input = "1x2x3
-4x5x6";
+        let input = "1x2x3 \
+            4x5x6";
         let expected = vec![vec![1, 2, 3], vec![4, 5, 6]];
         let separator = 'x';
         assert_eq!(splitter::<i32>(input, separator), expected);

@@ -1,17 +1,12 @@
 use std::env;
-use std::time::Instant;
 use utils;
+
 fn main() {
     let fullpath: String = env::args().next().unwrap();
     let input = utils::read_file(fullpath, true);
-    let start1 = Instant::now();
-    let r1 = p1(&input);
-    let t1 = Instant::now() - start1;
-    println!("P1 result is {} - took {} seconds", r1, t1.as_secs_f64());
-    let start2 = Instant::now();
-    let r2 = p2(&input);
-    let t2 = Instant::now() - start2;
-    println!("P2 result is {} - took {} seconds", r2, t2.as_secs_f64());
+    utils::tester("p1", p1, &input, 10);
+    utils::tester("p1_asbytes", p1_asbytes, &input, 10);
+    utils::tester("p2", p2, &input, 10);
 }
 
 fn p1(input: &str) -> i32 {
@@ -20,10 +15,21 @@ fn p1(input: &str) -> i32 {
     // case when ( then +1
     // case when ) then -1
     // return acc
-
     input
         .chars()
         .fold(0, |acc, c| if c == '(' { acc + 1 } else { acc - 1 })
+}
+
+fn p1_asbytes(input: &str) -> i32 {
+    // string into list
+    // reduce with acc=0
+    // case when ( then +1
+    // case when ) then -1
+    // return acc
+    input
+        .as_bytes()
+        .iter()
+        .fold(0, |acc, c| if *c == b'(' { acc + 1 } else { acc - 1 })
 }
 
 fn p2(input: &str) -> i32 {

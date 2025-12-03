@@ -6,22 +6,8 @@ use std::time::Instant;
 fn main() {
     let fullpath: String = env::args().next().unwrap();
     let input = utils::read_file(fullpath, true);
-    let start1 = Instant::now();
-    let r1 = p1(&input);
-    let t1 = Instant::now() - start1;
-    println!(
-        "P1 result is {} - took {} milliseconds",
-        r1,
-        t1.as_secs_f64() * 1000_f64
-    );
-    let start2 = Instant::now();
-    let r2 = p2(&input);
-    let t2 = Instant::now() - start2;
-    println!(
-        "P2 result is {} - took {} milliseconds",
-        r2,
-        t2.as_secs_f64() * 1000_f64
-    );
+    utils::tester("p1", p1, &input, 10);
+    utils::tester("p2", p2, &input, 10);
 }
 
 fn p1(input: &str) -> i32 {
