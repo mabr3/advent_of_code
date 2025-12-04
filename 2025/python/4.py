@@ -1,6 +1,9 @@
 from utils import timer, reader
 import sys
 
+#TODO: try using complex numbers
+#TODO: reduce iterations
+#TODO: don't recalculate adj grid
 
 def build_grid(lines):
     n_rows = len(lines)
