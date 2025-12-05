@@ -1,9 +1,10 @@
 from utils import timer, reader
 import sys
 
-#TODO: try using complex numbers
-#TODO: reduce iterations
-#TODO: don't recalculate adj grid
+# TODO: try using complex numbers
+# TODO: reduce iterations
+# TODO: don't recalculate adj grid
+
 
 def build_grid(lines):
     n_rows = len(lines)
@@ -93,7 +94,6 @@ def part2(lines):
     return res
 
 
-
 if __name__ == "__main__":
     TEST = False if len(sys.argv) < 2 else True
     if not TEST:
@@ -102,7 +102,8 @@ if __name__ == "__main__":
         part2(lines)
     else:
         print("Testing!")
-        lines1 = ["..@@.@@@@.",
+        lines1 = [
+            "..@@.@@@@.",
             "@@@.@.@.@@",
             "@@@@@.@.@@",
             "@.@@@@..@.",
