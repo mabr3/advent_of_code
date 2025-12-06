@@ -1,9 +1,12 @@
 import time
 
 
-def reader(day):
+def reader(day, strip=True):
     with open("/".join(__file__.split("/")[:-2]) + f"/inputs/{day}.txt", "r") as f:
-        lines = [i.rstrip("\n") for i in f.readlines()]
+        if strip:
+            lines = [i.rstrip("\n") for i in f.readlines()]
+        else:
+            lines = [i for i in f.readlines()]
     return lines
 
 
