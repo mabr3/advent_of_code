@@ -24,20 +24,20 @@ def part1(lines, connections):
     boxes_place = [i for i in range(len(boxes))]
 
     for c in range(connections):
-        p,q = dists[c]
+        p, q = dists[c]
         while boxes_place[p] != p:
             p = boxes_place[p]
 
         while boxes_place[q] != q:
             q = boxes_place[q]
-        if p ==q:
+        if p == q:
             continue
         circuits[p] += circuits[q]
         circuits[q] = []
         boxes_place[q] = p
     circuits = [set(c) for c in circuits]
     circuits = sorted([len(c) for c in circuits], reverse=True)
-    res = circuits[0]*circuits[1]*circuits[2]
+    res = circuits[0] * circuits[1] * circuits[2]
     return res
 
 
@@ -57,19 +57,19 @@ def part2(lines):
     boxes_place = [i for i in range(len(boxes))]
 
     for c in range(len(dists)):
-        p,q = dists[c]
+        p, q = dists[c]
         while boxes_place[p] != p:
             p = boxes_place[p]
 
         while boxes_place[q] != q:
             q = boxes_place[q]
-        if p ==q:
+        if p == q:
             continue
         circuits[p] += circuits[q]
         circuits[q] = []
         boxes_place[q] = p
         if len(circuits[p]) == len(boxes):
-           break
+            break
     res = boxes[dists[c][0]][0] * boxes[dists[c][1]][0]
     return res
 
@@ -105,6 +105,6 @@ if __name__ == "__main__":
             "984,92,344",
             "425,690,689",
         ]
-        assert part1(lines1, 10) == 40, 'should be 40'
+        assert part1(lines1, 10) == 40, "should be 40"
         lines2 = lines1
-        assert part2(lines2) == 25272, 'should be 25272'
+        assert part2(lines2) == 25272, "should be 25272"

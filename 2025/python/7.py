@@ -6,20 +6,22 @@ import sys
 def part1(lines):
     res = 0
     laser = [0 for _ in range(len(lines[0]))]
-    for i in range(len(lines)-1):
+    for i in range(len(lines) - 1):
         for j in range(len(lines[i])):
-            if i==0 and lines[i][j] == 'S':
+            if i == 0 and lines[i][j] == "S":
                 laser[j] = 1
-            elif laser[j] == 1 and lines[i+1][j] == '^':
-                res +=1
+            elif laser[j] == 1 and lines[i + 1][j] == "^":
+                res += 1
                 laser[j] = 0
-                if j-1 >=0:
-                    laser[j-1] = 1
-                if j+1 < len(laser):
-                    laser[j+1] = 1
+                if j - 1 >= 0:
+                    laser[j - 1] = 1
+                if j + 1 < len(laser):
+                    laser[j + 1] = 1
     return res
 
+
 MEMO = {}
+
 
 @timer
 def part2(lines):
@@ -27,24 +29,25 @@ def part2(lines):
     laser = -1
     # get first laser position
     for i in range(len(lines[0])):
-        if lines[0][i] == 'S':
+        if lines[0][i] == "S":
             laser = i
     memo = {}
+
     def dfs_helper(lines, lines_idx, laser_idx, memo):
-        if lines_idx >= len(lines)-1:
+        if lines_idx >= len(lines) - 1:
             return 1
         left = 0
         right = 0
-        i= 0
-        if lines[lines_idx][laser_idx] != '^':
-            return dfs_helper(lines,lines_idx + 2, laser_idx, memo)
+        i = 0
+        if lines[lines_idx][laser_idx] != "^":
+            return dfs_helper(lines, lines_idx + 2, laser_idx, memo)
         else:
             if (lines_idx, laser_idx) in memo.keys():
                 return memo[(lines_idx, laser_idx)]
             if laser_idx - 1 >= 0:
-                left += dfs_helper(lines,lines_idx + 2, laser_idx -1, memo)
-            if laser_idx +1 < len(lines[i]):
-                right += dfs_helper(lines,lines_idx + 2, laser_idx +1, memo)
+                left += dfs_helper(lines, lines_idx + 2, laser_idx - 1, memo)
+            if laser_idx + 1 < len(lines[i]):
+                right += dfs_helper(lines, lines_idx + 2, laser_idx + 1, memo)
             memo[(lines_idx, laser_idx)] = left + right
         return left + right
 
@@ -62,22 +65,24 @@ if __name__ == "__main__":
         part2(lines)
     else:
         print("Testing!")
-        lines1 = [".......S.......",
-        "...............",
-        ".......^.......",
-        "...............",
-        "......^.^......",
-        "...............",
-        ".....^.^.^.....",
-        "...............",
-        "....^.^...^....",
-        "...............",
-        "...^.^...^.^...",
-        "...............",
-        "..^...^.....^..",
-        "...............",
-        ".^.^.^.^.^...^.",
-        "..............."]
+        lines1 = [
+            ".......S.......",
+            "...............",
+            ".......^.......",
+            "...............",
+            "......^.^......",
+            "...............",
+            ".....^.^.^.....",
+            "...............",
+            "....^.^...^....",
+            "...............",
+            "...^.^...^.^...",
+            "...............",
+            "..^...^.....^..",
+            "...............",
+            ".^.^.^.^.^...^.",
+            "...............",
+        ]
         assert part1(lines1) == 21, "should be 21"
         lines2 = lines1
         for i in range(12, 14, 2):

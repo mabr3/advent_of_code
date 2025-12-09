@@ -22,7 +22,7 @@ def part1(lines):
 @timer
 def part2(lines):
     res = 0
-    ops = [(i,v) for i, v in enumerate(list(lines[-1])) if v != " "]
+    ops = [(i, v) for i, v in enumerate(list(lines[-1])) if v != " "]
     # transpose lines:
     lines_t = [["" for _ in range(len(lines) - 1)] for j in range(len(lines[0]))]
     for i in range(len(lines) - 1):
@@ -33,14 +33,13 @@ def part2(lines):
     print(lines_t)
     for i in range(len(ops)):
         beg = ops[i][0]
-        end = ops[i+1][0]-1 if i < len(ops)-1 else len(lines[0])
-        vals = [int(''.join(lines_t[j])) for j in range(beg, end)]
-        if ops[i][1] == '+':
-            result = reduce(lambda x,y: x+y, vals)
+        end = ops[i + 1][0] - 1 if i < len(ops) - 1 else len(lines[0])
+        vals = [int("".join(lines_t[j])) for j in range(beg, end)]
+        if ops[i][1] == "+":
+            result = reduce(lambda x, y: x + y, vals)
         else:
-            result = reduce(lambda x,y: x*y, vals)
+            result = reduce(lambda x, y: x * y, vals)
         res += result
-
 
     # for line[::-1] in lines:
     #     idx = len(ops)-1

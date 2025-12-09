@@ -23,7 +23,7 @@ if __name__ == "__main__":
         part2(lines)
     else:
         print("Testing!")
-        lines1 = ["test"]
+        lines1 = ["7,1", "11,1", "11,7", "9,7", "9,5", "2,5", "2,3", "7,3"]
         part1(lines1)
         lines2 = ["test2"]
         part2(lines2)
