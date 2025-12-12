@@ -32,7 +32,7 @@ def part1(lines):
 
 @timer
 def part2(lines):
-    res = 0
+    res = 1
     connections = {}
     for line in lines:
         splits = line.split(":")
@@ -40,14 +40,14 @@ def part2(lines):
         values = [i for i in splits[1].split()]
         connections[key] = values
 
-    # final_paths = []
     # # BFS TAKES TOO LONG
     # but we can do 3 times BFS and multiply the paths I gues
     paths = {}
-
     def helper(key, target, connections):
         if key == target:
             return 1
+        elif key == 'out':
+            return 0
         elif key in paths:
             return paths[key]
         else:
@@ -58,26 +58,12 @@ def part2(lines):
             return counter
 
     c = []
-    for src, dest in [("out", "fft"), ("fft", "dac"), ("dac", "out")]:
+    for src, dest in [("svr", "fft"), ("fft", "dac"), ("dac", "out")]:
         paths = {}
-        c.append(helper(src, dest, connections))
+        value = helper(src, dest, connections)
+        c.append(value)
+        res *=value
 
-    print(c)
-    # # BFS to find all paths
-    # #initial queue are the neighbours of svr
-    # queue = [['svr']]
-    # while queue:
-    #     path = queue[0]
-    #     queue = queue[1:]
-    #     current = path[-1]
-    #     if current == 'out':
-    #         if 'dac' in path and 'fft' in path:
-    #             final_paths.append(path)
-    #         continue
-    #     for c in connections[current]:
-    #         new_path = [p for p in path]
-    #         new_path.append(c)
-    #         queue.append(new_path)
     # # DFS instead
     # known_paths = {}
     # queue = []
