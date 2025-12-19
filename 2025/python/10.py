@@ -1,6 +1,6 @@
 from utils import timer, reader
 import sys
-
+from scipy.optimize import milp, LinearConstraint
 
 def dfs_helper(target, current, buttons, counter):
     if target == current:
@@ -33,28 +33,6 @@ def part1(lines):
     return res
 
 
-def dfs_helper2(target, current, buttons, counter):
-    print(f"Entering dfs_helper2 with current: {current}, counter: {counter}")
-
-    def current_changer(current, button):
-        return [
-            current[c] + 1 if str(c) in button else current[c]
-            for c in range(len(current))
-        ]
-
-    if target == current:
-        print("Found it ---")
-        return counter
-    res = []
-    for i in range(len(buttons)):
-        button = buttons[i]
-        res.append(
-            dfs_helper2(target, current_changer(current, button), buttons, counter + 1)
-        )
-        print(res)
-
-    return min(res)
-
 
 @timer
 def part2(lines):
@@ -62,13 +40,16 @@ def part2(lines):
     for line in lines:
         splits = line.split(" ")
         target_joltage = splits[-1][1:-1].split(",")
-        buttons = [splits[i] for i in range(1, len(splits) - 1)]
-        print(target_joltage)
-        print(buttons)
-        res += dfs_helper2(
-            target_joltage, [0 for _ in range(len(target_joltage))], buttons, 0
-        )
-        break
+        buttons = [[int(j) for j in splits[i].replace('(','').replace(')', '').split(',')] for i in range(1, len(splits)-1)]
+        A = [ [0 for _ in range(len(buttons))] for _ in range(len(target_joltage))]
+        c = [1 for _ in range(len(buttons))]
+        b = [int(x) for x in target_joltage]
+        for i, button in enumerate(buttons):
+            for switch in button:
+                A[switch][i] = 1
+        contraints = LinearConstraint(A=A, lb=b, ub=b)
+        val = int(milp(c=c, constraints=contraints, integrality=c).fun)
+        res +=val
     return res
 
 
@@ -84,7 +65,7 @@ if __name__ == "__main__":
         lines1 = [
             "[.##.] (3) (1,3) (2) (2,3) (0,2) (0,1) {3,5,4,7}",
             "[...#.] (0,2,3,4) (2,3) (0,4) (0,1,2) (1,2,3,4) {7,5,12,7,2}",
-            "[.###.#] (0,1,2,3,4) (0,3,4) (0,1,2,4,5) (1,2) {10,11,11,5,10,5}]",
+            "[.###.#] (0,1,2,3,4) (0,3,4) (0,1,2,4,5) (1,2) {10,11,11,5,10,5}",
         ]
         assert part1(lines1) == 7, "Should be 7"
         lines2 = lines1

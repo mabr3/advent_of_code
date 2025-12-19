@@ -1,0 +1,19 @@
+[project]
+name = "aoc"
+version = "0.1.0"
+description = "My AoC python env"
+authors = [
+    {name = "mike",email = "mbrogueirarodrigues@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "ruff (>=0.14.9,<0.15.0)",
+    "scipy (>=1.16.3,<2.0.0)",
+    "click (>=8.3.1,<9.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

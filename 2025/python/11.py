@@ -43,10 +43,11 @@ def part2(lines):
     # # BFS TAKES TOO LONG
     # but we can do 3 times BFS and multiply the paths I gues
     paths = {}
+
     def helper(key, target, connections):
         if key == target:
             return 1
-        elif key == 'out':
+        elif key == "out":
             return 0
         elif key in paths:
             return paths[key]
@@ -62,7 +63,7 @@ def part2(lines):
         paths = {}
         value = helper(src, dest, connections)
         c.append(value)
-        res *=value
+        res *= value
 
     # # DFS instead
     # known_paths = {}
