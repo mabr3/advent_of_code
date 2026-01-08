@@ -2,6 +2,7 @@ from utils import timer, reader
 import sys
 from scipy.optimize import milp, LinearConstraint
 
+
 def dfs_helper(target, current, buttons, counter):
     if target == current:
         return counter
@@ -33,15 +34,17 @@ def part1(lines):
     return res
 
 
-
 @timer
 def part2(lines):
     res = 0
     for line in lines:
         splits = line.split(" ")
         target_joltage = splits[-1][1:-1].split(",")
-        buttons = [[int(j) for j in splits[i].replace('(','').replace(')', '').split(',')] for i in range(1, len(splits)-1)]
-        A = [ [0 for _ in range(len(buttons))] for _ in range(len(target_joltage))]
+        buttons = [
+            [int(j) for j in splits[i].replace("(", "").replace(")", "").split(",")]
+            for i in range(1, len(splits) - 1)
+        ]
+        A = [[0 for _ in range(len(buttons))] for _ in range(len(target_joltage))]
         c = [1 for _ in range(len(buttons))]
         b = [int(x) for x in target_joltage]
         for i, button in enumerate(buttons):
@@ -49,7 +52,7 @@ def part2(lines):
                 A[switch][i] = 1
         contraints = LinearConstraint(A=A, lb=b, ub=b)
         val = int(milp(c=c, constraints=contraints, integrality=c).fun)
-        res +=val
+        res += val
     return res
 
 

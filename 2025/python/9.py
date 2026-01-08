@@ -6,11 +6,11 @@ def calculate_area(b1, b2):
     if b1[0] == b2[0]:
         length = 0
     else:
-        length = b1[0] - b2[0] if b1[0] >= b2[0] else b2[0] - b1[0]
+        length = abs(b1[0] - b2[0])
     if b1[1] == b2[1]:
         height = 0
     else:
-        height = b1[1] - b2[1] if b1[1] >= b2[1] else b2[1] - b1[1]
+        height = abs(b1[1] - b2[1])
     return (length + 1) * (height + 1)
 
 
@@ -28,67 +28,83 @@ def part1(lines):
     return res
 
 
-def check_valid(bricks, b1, b2):
+def check_intersect(x1, y1, x2, y2, bricks):
+    n = len(bricks)
+    for i in range(n):
+        e1 = bricks[i]
+        e2 = bricks[(i - 1) % n]
+
+        if e1[0] == e2[0]:
+            if x1 < e1[0] < x2:  # is not on the boundary or out
+                if max(e1[1], e2[1]) > y1 and min(e1[1], e2[1]) < y2:
+                    return True
+        else:
+            if y1 < e1[1] < y2:
+                if max(e1[0], e2[0]) > x1 and min(e1[0], e2[0]) < x2:
+                    return True
     return False
+
+
+def is_valid(b1, b2, memo, bricks):
+    x1, x2 = sorted([b1[0], b2[0]])
+    y1, y2 = sorted([b1[1], b2[1]])
+
+    # Check vertices of the square
+    for x, y in [(x1, y1), (x1, y2), (x2, y1), (x2, y2)]:
+        inside = True
+        if (x, y) in memo:
+            inside = memo.get((x, y))
+        else:
+            inside = point_in_polygon(x, y, bricks)
+            memo[(x, y)] = inside
+        if not inside:
+            return False
+    # if all vertices are in the polygon
+    # check if any edge intercepts the rectangle. if it does it's bad news
+    return not check_intersect(x1, y1, x2, y2, bricks)
+
+
+def point_in_polygon(x, y, bricks):
+    # starts as false because odd means inside
+    inside = False
+    n = len(bricks)
+    # check if point is in boundaries: counts as inside
+    for i in range(n):
+        b1 = bricks[i]
+        b2 = bricks[(i + 1) % n]
+        if (x == b1[0] == b2[0] and min(b1[1], b2[1]) <= y <= max(b1[1], b2[1])) or (
+            y == b1[1] == b2[1] and min(b1[0], b2[0]) <= x <= max(b1[0], b2[0])
+        ):
+            return True
+        # intersect boundaries
+        # XOR to avoid division by zero
+        if b1[0] == b2[0]:
+            continue
+        if ((b1[0] > x) != (b2[0] > x)) and (
+            y < b1[1] + (x - b1[0]) * (b2[1] - b1[1]) / (b2[0] - b1[0])
+        ):
+            inside = not inside
+
+    return inside
 
 
 @timer
 def part2(lines):
     res = 0
-    # brute force it:
-
-    red_bricks = []
-    rows = {}
-    cols = {}
-    # for each row get min and max either red or green
-    for i in range(len(lines)):
-        brick = tuple(int(j) for j in lines[i].split(","))
-        red_bricks.append(brick)
-        row, col = brick
-        print(f" Row is {row} and col is {col}")
-        if row in rows.keys():
-            if col < rows[row][0]:
-                rows[row] = (col, rows[row][1])
-            elif col > rows[row][1]:
-                rows[row] = (rows[row][0], col)
-        else:
-            rows[row] = (col, col)
-        if col in cols.keys():
-            if row < cols[col][0]:
-                cols[col] = (row, cols[col][1])
-            elif row > cols[col][1]:
-                cols[col] = (cols[col][0], row)
-        else:
-            cols[col] = (row, row)
-        print(f"rows: {rows}")
-        print(f"cols: {cols}")
-
-    grid = [["." for _ in range(15)] for _ in range(15)]
-    print(rows)
-    print(cols)
-    for i in range(len(grid)):
-        for j in range(len(grid[i])):
-            if (j, i) in red_bricks:
-                grid[i][j] = "#"
-            elif (i in cols.keys() and cols[i][0] <= j and j <= cols[i][1]) or (
-                j in rows.keys() and rows[j][0] <= i and i <= rows[j][1]
-            ):
-                grid[i][j] = "X"
-    for r in grid:
-        print(r)
-
-    # bricks = []
-    # for i in range(len(lines)):
-    #     brick = tuple(int(j) for j in lines[i].split(','))
-    #     bricks.append(brick)
-    # for i in range(len(bricks)):
-    #     for j in range(i+1,len(bricks)):
-    #         if check_three(bricks, i, j):
-    #             area = calculate_area(bricks[i], bricks[j])
-    #             if area > res:
-    #                 print(f'Got area= {area} with bricks {bricks[i]} and {bricks[j]}')
-    #                 res = area
-    # print(bricks)
+    bricks = []
+    memo = {}
+    for line in lines:
+        brick = tuple(int(i) for i in line.split(","))
+        bricks.append(brick)
+    # Use ray casting
+    # In any shape it crosses boundaries an odd number of times
+    # it is inside. If even, it is outside
+    # the input always keeps last x or y
+    for id1, b1 in enumerate(bricks):
+        for id2, b2 in enumerate(bricks, start=1):
+            area = calculate_area(b1, b2)
+            if area > res and is_valid(b1, b2, memo, bricks):
+                res = area
     return res
 
 
